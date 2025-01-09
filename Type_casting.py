@@ -153,9 +153,9 @@
 # print(list)
 
 
-# list=[1,2,3,4]
-# list.append(8)
-# print(list)
+list=[1,2,3,4]
+list.append(8)
+print(list)
 
 
 # list=[1,2,2,3,4]
@@ -192,9 +192,9 @@
 # a=len(list)
 # print(a)
 
-list=[1,7,2,3,4,5]
-listr=sorted(list,reverse=True)
-print(listr)
+# list=[1,7,2,3,4,5]
+# listr=sorted(list,reverse=True)
+# print(listr)
 
 
 
@@ -206,3 +206,13 @@ print(listr)
 # print(my_list)  
 
 
+num=int(input("enter the number for factorial :"))
+
+print(num)
+i=1
+fact=1
+while i <= num:
+    fact*=i
+    i+=1
+    
+print(fact)    

@@ -1,15 +1,18 @@
 List=["Apple","WaterMelone","Papaya","Mango"]
 
+
 a=len(List)
+print(a)
+
 
 ###insert
 
-# List.insert(3,"Grapes")
+# List.insert(2,"grapes")
 # print(List)
-# print(a)
+# # print(a)
 
 
-###Apend
+# ##Apend
 # List.append("cherry")
 # print(List)
 
@@ -41,28 +44,11 @@ a=len(List)
 
 ###loop in List
 
-# for i in List:
-#     print(i)
+for i in List:
+    print(i)
 
 #while looop
 
 # i=0
 # while i < a:
 #     print(List[i])
-#     i=i+1
-
-
-# Original tuple
-original_tuple = (1, 2, 3)
-
-# Convert the tuple to a list
-temp_list = list(original_tuple)
-
-# Add the new value to the list
-temp_list.append(4)
-
-# Convert the list back to a tuple
-updated_tuple = tuple(temp_list)  # Ensure no variable is named `tuple`
-
-# Print the updated tuple
-print(updated_tuple)

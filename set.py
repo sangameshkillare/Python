@@ -36,10 +36,10 @@
 ###union , differnce,intersection
 
 
-# s={1,2,3,4,5}
-# s2={7,8,9,2}
-# new=s ^ s2 ## unionn= | ,diff= -,intersection =& ,semmetric difference=^
-# print(new)
+s={1,2,3,4,5}
+s2={7,8,9,2}
+new=s ^ s2 ## unionn= | ,diff= -,intersection =& ,semmetric difference=^
+print(new)
 
 ##clear and del and len function
 
@@ -47,17 +47,17 @@
 # print(len(s))
 
 # #del (s)
+# # print(s)
+
+
+# s={1,2,3,4,5,6,9,8}
+# #d=sorted(s,reverse=True)
+# print(min(s))
+# print(max(s))
+# print(len(s))
+
+# print(sorted(s))
+# s.pop()
 # print(s)
-
-
-s={1,2,3,4,5,6,9,8}
-#d=sorted(s,reverse=True)
-print(min(s))
-print(max(s))
-print(len(s))
-
-print(sorted(s))
-s.pop()
-print(s)
 
 #print(sorted(s,reversed=True))
