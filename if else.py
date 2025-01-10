@@ -38,7 +38,7 @@
 #     print(f"It is odd .")
 
 
-## W.a.p to find grater of 2 number
+## W.a.p to find grater of 3 number.
 
 # num=int(input("Enter any number you want But positive: "))
 
@@ -75,6 +75,8 @@
 
 
 ##. Write a program to check if a person is eligible to vote (age >= 18).  
+
+
 # age=int(input("Enter the age of person :"))
 # print(age)
 
@@ -98,13 +100,12 @@
 # else:
 #     print("zero")
 
+
+
 ##Write a program to check if a number is divisible by both 3 and 5. 
 
 # num=int(input("enter the number :"))
-
 # print(num)
-
-
 # if num / 3==0 and num /5==0 :
 #     print(f"The number you have entered {num} is divisible by 3 and 5")
 # elif num /5:
@@ -116,6 +117,8 @@
 
 
 ##Write a program to check if three given sides can form a triangle.  
+
+
 
 # s1=int(input("enter s1 ::"))
 # s2=int(input("enter s2 ::"))
@@ -129,17 +132,19 @@
 
 ##/// Write a program to check if a character entered is an alphabet or not.  
 
-alfa=input("enter the alfabets :")
-print(alfa)
+# alfa=input("enter the alfabets :")
+# print(alfa)
 
-if alfa.isalpha() :
-    print("it is alphabet.")
-else:
-    print("It is not alphabet")
+# if alfa.isalpha() :
+#     print("it is alphabet.")
+# else:
+#     print("It is not alphabet")
 
 
 
 ## Write a program to check if an entered character is a vowel or consonant.  
+
+
 
 # alfa=input("enter the alfa :")
 # vowel="aeiou"
@@ -152,18 +157,20 @@ else:
 ##Write a program to calculate a discount based on the purchase amount (e.g., 10% for purchases above $100).
 
 
-purchase=float(input("enter the amout to get discouted amount :"))
+# purchase=float(input("enter the amout to get discouted amount :"))
 
-discount_per=10/100
+# discount_per=10/100
 
-if purchase >= 100:
-    print("You are eligible for 10% discount .")
-    discounted_amount=purchase*discount_per
-    print(f"Discount on purchase value = {discounted_amount}")
+# if purchase >= 100:
+#     print("You are eligible for 10% discount .")
+#     discounted_amount=purchase*discount_per
+#     print(f"Discount on purchase value = {discounted_amount}")
     
-    print(purchase-discounted_amount)
-else :
-    print(f"total payable amout ={purchase}")
+#     print(purchase-discounted_amount)
+# else :
+#     print(f"total payable amout ={purchase}")
+
+
 
 
 ##Write a program to perform addition, subtraction, multiplication, or division based on the user’s choice.
