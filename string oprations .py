@@ -21,6 +21,5 @@
 # print(s1[7:0:-1])
 
 
-a="Saangamesh"
 for x in "Sangamesh":
     print(x)

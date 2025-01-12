@@ -18,8 +18,8 @@ dict3={1:"ram,5,sam"}
 # a=dict.values()
 # print(a)
 
-dict.remove("name")
-print(dict)
+#dict.remove("name")
+# print(dict)
 
 # dict.clear()
 # print(dict)

@@ -229,10 +229,12 @@ re_list=[]
 
 
 
-min=1
-max=100
+# num=int(input("enter number "))
+# res=num*2
+# while res<1000:
+#     print(res)
+#     res=res*2
 
-while min<=max:
-    num=min*2
-    print(num)
-    min+=1
+
+
+

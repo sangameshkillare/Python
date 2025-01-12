@@ -129,13 +129,13 @@
 
 ##/// Write a program to check if a character entered is an alphabet or not.  
 
-alfa=input("enter the alfabets :")
-print(alfa)
+# alfa=input("enter the alfabets :")
+# print(alfa)
 
-if alfa.isalpha() :
-    print("it is alphabet.")
-else:
-    print("It is not alphabet")
+# if alfa.isalpha() :
+#     print("it is alphabet.")
+# else:
+#     print("It is not alphabet")
 
 
 
@@ -152,18 +152,18 @@ else:
 ##Write a program to calculate a discount based on the purchase amount (e.g., 10% for purchases above $100).
 
 
-purchase=float(input("enter the amout to get discouted amount :"))
+# purchase=float(input("enter the amout to get discouted amount :"))
 
-discount_per=10/100
+# discount_per=10/100
 
-if purchase >= 100:
-    print("You are eligible for 10% discount .")
-    discounted_amount=purchase*discount_per
-    print(f"Discount on purchase value = {discounted_amount}")
+# if purchase >= 100:
+#     print("You are eligible for 10% discount .")
+#     discounted_amount=purchase*discount_per
+#     print(f"Discount on purchase value = {discounted_amount}")
     
-    print(purchase-discounted_amount)
-else :
-    print(f"total payable amout ={purchase}")
+#     print(purchase-discounted_amount)
+# else :
+#     print(f"total payable amout ={purchase}")
 
 
 ##Write a program to perform addition, subtraction, multiplication, or division based on the user’s choice.

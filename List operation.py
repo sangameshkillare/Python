@@ -44,8 +44,8 @@ print(a)
 
 ###loop in List
 
-for i in List:
-    print(i)
+# for i in List:
+#     print(i)
 
 #while looop
 

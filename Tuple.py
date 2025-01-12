@@ -34,6 +34,6 @@ tuple=(1,3,2,5,7,9,3)
 # print(a)
 
 # a=sorted(tuple)
-print(sorted(tuple))
+#print(sorted(tuple))
             
 

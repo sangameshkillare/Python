@@ -36,10 +36,10 @@
 ###union , differnce,intersection
 
 
-s={1,2,3,4,5}
-s2={7,8,9,2}
-new=s ^ s2 ## unionn= | ,diff= -,intersection =& ,semmetric difference=^
-print(new)
+# s={1,2,3,4,5}
+# s2={7,8,9,2}
+# new=s ^ s2 ## unionn= | ,diff= -,intersection =& ,semmetric difference=^
+# print(new)
 
 ##clear and del and len function
 

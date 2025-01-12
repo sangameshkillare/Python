@@ -1,5 +1,7 @@
 ## brek ,continu and pass statement 
 
+
+
 # for i in [1,2,4,2.3,"sangamesh"]:
 #     if i==2.3:
 #         break
@@ -260,20 +262,22 @@
 # 12345
 
 
-n=int(input("enter the number :"))
-i=1
-while i<=n:
-    space=1
-    while space<=n-i :
-        print(' ',end="")
-        space=space+1
-    star=1
-    while star <=i:
-        if star==1:
-            print("1",end="")
-        else :
-            print(star,end="")
-        star+=1
-    print()
-    i+=1
+# n=int(input("enter the number :"))
+# i=1
+# while i<=n:
+#     space=1
+#     while space<=n-i :
+#         print(' ',end="")
+#         space=space+1
+#     star=1
+#     while star <=i:
+#         if star==1:
+#             print("1",end="")
+#         else :
+#             print(star,end="")
+#         star+=1
+#     print()
+#     i+=1
+    
+    
     
