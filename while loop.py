@@ -206,7 +206,7 @@
 
 
 
-# #Calculate the Power of a Number Without Using the  Operator
+# # # #Calculate the Power of a Number Without Using the  Operator
 
 
 
@@ -214,9 +214,10 @@
 # exponent=int(input("enter the exponent:"))
 # result=1
 # count=(abs(exponent))
-# while count > 0:
+# # while count > 0:
+# for i in range(count,0,-1):
 #     result*=base
-#     count-=1
+# #     count-=1
 #     if exponent<0:
 #         result=1/result
        
