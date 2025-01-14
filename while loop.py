@@ -119,7 +119,7 @@
     
     
     
-#Reverse a Number Using a While Loop
+# Reverse a Number Using a While Loop
 
 
 # n=int(input("enter the nuber :"))
@@ -127,6 +127,26 @@
 # reverse=int(str(n)[::-1])
 # print(reverse)
 
+
+
+
+# a=input("enter a number")
+# i=len(a)-1
+# while i >=0:
+#     print(a[i],end="")
+#     i=i-1
+
+
+
+# #Sum of Natural Numbers Until a Given Number
+
+# num=int(input("Enter the number :"))
+# sum=0
+# i=1
+# while i <=num:
+#     sum+=i
+#     i+=1
+# print(sum)
 
 
 
@@ -201,7 +221,17 @@
 #         result=1/result
        
 # print(result)
-    
+
+
+# expo=int(input("enter the exponent :"))
+# base=int(input("enter the base :"))
+# i=abs(expo)
+# result=1
+# while i>0:
+#     result*=base  
+#     i-=1
+# print(result)
+      
     
     
     
@@ -229,13 +259,16 @@
 
 # div1=[]
 # div2=[]
-
-# for i in range(1,num1):
+# i=1
+# while i<=num1:
 #     if num1%i==0:
 #         div1.append(i)
-# for i in range(1,num2):
-#     if num2%i==0:
-#         div2.append(i)
+#     i+=1
+# j=1
+# while j<num2:
+#     if num2%j==0:
+#         div2.append(j)
+#     j+=1
     
 # print(div1)
 # print(div2)
@@ -272,5 +305,18 @@
 # else:
 #     print("Devise unlock.")      
 
+
+
+#calculate sum of given no
+
+
+# num=input('Enter the num :')
+# num=abs(num)
+# total=0
+# i=0
+# while i<len(num):
+#     total=total+int(num[i])
+#     i+=1
+# print(total)
 
 
