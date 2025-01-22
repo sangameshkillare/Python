@@ -1,4 +1,4 @@
-## brek ,continu and pass statement 
+##___________________ brek ,continu and pass statement 
 
 
 
@@ -25,19 +25,19 @@
 # print("Exited")
 
 
-#wap for 1-10
+#_____________________wap for 1-10
 # for i in range(1,10):
 #     print(i)
 
 
-# #Wap for 01-1
+#_____________________ #Wap for 01-1
 
 
 # for i in range(10,1,-1):
 #     print(i)
 
 
-#wap to print list in reverse order
+#__________________wap to print list in reverse order
 
 
 # list=[1,2,3,4,5,6,7,8,9,0]
@@ -50,7 +50,7 @@
 #     print(i)
 
 
-#Wap to program to find the factorial of given number
+#___________________Wap to program to find the factorial of given number
 
 
 # n=int(input("enter the number :") )
@@ -87,7 +87,7 @@
 
 
 
-#wap to split the even and odd element in list
+#____________wap to split the even and odd element in list
 
 
 
@@ -106,7 +106,25 @@
 
 
 
-#WAP to print sum of list
+#_____________15.Given a string, split it into a list of words and then join the words back into a single string without spaces.
+#original_string = "I  am  learning  Python programming" [I , am , learning,python,programming] = "IamlearningPytonprogramming"
+
+
+
+
+# string="I am learning python programming"
+# print(string)
+# words=string.split()
+# print(words)
+# join=''
+# for i in words:
+#     join+=i
+# print(join)
+    
+    
+
+
+#___________________WAP to print sum of list using for loop
 
 
 # list1=[2,5,4,2,8,6,3,54,5,53,8]
@@ -118,7 +136,7 @@
 
 
 
-# #wap to print cummelative sum
+#_______________#wap to print cummelative sum
 
 
 # list1=[2,5,4,2,8,6,3,54,5,53,8]
@@ -131,7 +149,7 @@
 
 
 
-#wap to print the special char , vowel ,  consonent , numbers and spaces. 
+#_______________wap to print the special char , vowel ,  consonent , numbers and spaces. 
 
  
 # string="Hi Welcome To @ India #indian at @14567 $"
@@ -158,7 +176,7 @@
     
     
     
-#Use a for loop to print numbers from 10 to 0, decrementing by 2 each time.
+#___________________Use a for loop to print numbers from 10 to 0, decrementing by 2 each time.
     
     
 
@@ -171,7 +189,7 @@
 
 
 
-#wap to print factorial of given number :
+#__________________wap to print factorial of given number :
 
 
 # num=int(input("enter the Number :"))
@@ -181,7 +199,7 @@
 # print(fact)
 
 
-#wap to print the sum of all digits 
+#_____________________wap to print the sum of all digits 
 
 
 # digit=12345
@@ -198,7 +216,7 @@
 
 
 
-#Write a program to reverse a given string using a for loop.
+#__________________Write a program to reverse a given string using a for loop.
 
 # string="sangamesh is a good communicator."
 # reverse=""
@@ -208,22 +226,25 @@
 
 
 
-#wap to print thr priime number 1-50
+#________________wap to print thr priime number 1-50
 
 
 
-# m=int(input("enter the number until you get list of prime number :"))
+# m=int(input("enter the number from there you want to print prime number :"))
 # prime=[]
-# for i in range(2,m):
+# if m>1:
+#   for i in range(2,m):
 #     for j in range(2,i):
 #         if i%j==0:
 #            break
 #     else:
 #        prime.append(i)
+# else:
+#     print("enter the valid number :")
 # print(prime)
 
 
-#wap for fibo series
+#______________wap for fibo series
 
 
 
@@ -240,7 +261,7 @@
 #     print(fibo)
 
 
-
+#_____________________________
 # *
 # **
 # ***
@@ -257,7 +278,7 @@
 
 
 
-#Given a list of numbers, use a for loop to find the maximum value.
+#_________________Given a list of numbers, use a for loop to find the maximum value.
 
 
 
@@ -275,7 +296,7 @@
 
 
 # #
-# #Keep Multiplying a Number by 2 Until It Becomes Greater Than 1000
+#____________________ #Keep Multiplying a Number by 2 Until It Becomes Greater Than 1000
 
 
 # n = int(input("Enter the number: "))
@@ -288,7 +309,7 @@
 
 
 
-# # # #Calculate the Power of a Number Without Using the  Operator
+# _____________________# # #Calculate the Power of a Number Without Using the  Operator
 
 
 
@@ -304,3 +325,62 @@
 #         result=1/result
        
 # print(result)
+
+
+
+
+
+# # _________________________
+# *
+# **
+# ***
+
+
+
+# n=int(input("enter : "))
+# for i in range(n):
+#     for j in range(i):
+#         print("*",end="")
+#         # print(i,end="")
+#         # print(j,end="")
+#     print()
+
+
+
+# __________________________
+# ****
+# ***
+# **
+# *
+
+
+
+
+# n=int(input("enter:"))
+# for i in range(n,0,-1):
+#     for j in range(1,i+1):
+#         # print("*",end="")
+        
+#         print(i,end="")
+#     print()
+
+
+
+
+# _________________________________
+# # ---*
+# # --**
+# # -***
+# # ****
+
+
+
+# n=int(input("enter:"))
+# bg=0
+# sg=0
+# for i in range(n):
+#     for space in range(n-i,1,-1):
+#         print("-",end="")
+#         for star in range(i):
+#             print("*",end="")
+#         print()
