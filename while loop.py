@@ -174,15 +174,14 @@
 # num2=1
 
 # i=1
-# # while i<=n:
-# #     print(num)
-# #     num,num2=num2,num+num2
-# #     i+=1
-# print(num,num2,end=" ")
-    
+
+# print(num)
+# print(num2)
+
+
 # while i<n:
 #     result=num+num2
-#     print(result,end=" ")
+#     print(result)
 #     num=num2
 #     num2=result
 #     i+=1
