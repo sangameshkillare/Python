@@ -152,10 +152,14 @@
 
 #----------------------sort list
 
+
 # nums=[1,2,3,4,5,6,11,22,8,9]
-# even_odd=sorted(nums,key=lambda x:abs(x))
+# list=sorted(nums,key=lambda x:x)
 # print(even_odd)
 
+# nums=[1,2,3,4,5,6,11,22,8,9]
+# list=sorted(nums,key=lambda x:-x)
+# print(even_odd)
 
 
 #---------------sort lis with tuple element
@@ -172,10 +176,27 @@
 #----------------sort list of string using lambda , by length of the string and by alpha sequence 
 
 
-# words = ["banana", "apple", "cherry","chiku"]
+# words = ["banana", "apple", "cherry","chiku","zen","sanb"]
 
-# # Using sorted()
-# # sorted_words = sorted(words, key=lambda x:x)
-# sorted_words = sorted(words, key=lambda x:len(x))
+# sorted_words = sorted(words, key=lambda x:x)
+# # sorted_words = sorted(words, key=lambda x:len(x))
 
 # print(sorted_words) 
+
+
+
+#--------------sort by last word of string 
+# words = ["banana", "apple", "cherry","chiku","zen","sanb"]
+
+# sorted_words = sorted(words, key=lambda x:x[::-1])
+
+# print(sorted_words) 
+
+
+
+#---------------sorting by multiple criteria
+
+
+# pairs = [(1, 3), (4, 1), (2, 3), (4, 3)]
+# sorted_pairs = sorted(pairs, key=lambda x: (x[1], x[0]))
+# print(sorted_pairs)  # Output: [(4, 1), (1, 3), (2, 3), (4, 3)]
