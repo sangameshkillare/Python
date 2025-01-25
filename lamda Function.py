@@ -7,13 +7,21 @@
 
 
 
-#---------------- variable=lambda argument : parameters--------------------:
+# #---------------- variable=lambda argument : parameters--------------------
+# 10/2=5 reminder=0
+# 5/2=2 re=1
+# 2/2=1 re=0
+# 1/2=0 re =1
+
+
+
 
 
 #examples
 
     
 # ----------------------------addition and multiplication both  of numbers using binary
+
 
 
 
@@ -155,7 +163,7 @@
 
 # nums=[1,2,3,4,5,6,11,22,8,9]
 # list=sorted(nums,key=lambda x:x)
-# print(even_odd)
+# print(list)
 
 # nums=[1,2,3,4,5,6,11,22,8,9]
 # list=sorted(nums,key=lambda x:-x)
@@ -186,6 +194,9 @@
 
 
 #--------------sort by last word of string 
+
+
+
 # words = ["banana", "apple", "cherry","chiku","zen","sanb"]
 
 # sorted_words = sorted(words, key=lambda x:x[::-1])
@@ -198,5 +209,8 @@
 
 
 # pairs = [(1, 3), (4, 1), (2, 3), (4, 3)]
-# sorted_pairs = sorted(pairs, key=lambda x: (x[1], x[0]))
+# sorted_pairs = sorted(pairs, key=lambda x: (x[0], x[1]))
 # print(sorted_pairs)  # Output: [(4, 1), (1, 3), (2, 3), (4, 3)]
+
+
+
