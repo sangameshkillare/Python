@@ -158,12 +158,6 @@
 
 
 
-#------------use filter in the lambda for even and odd
-
-
-# nums=[1,2,3,4,5,6,7,8,9]
-# even_odd=list(filter(lambda x:x%2==0 ,nums))
-# print(even_odd)
 
 
 #----------------------sort list
@@ -248,3 +242,24 @@
 # grades = ["A", "B", "C", "D"]
 # word=list(map(lambda grade: 4 if grade == "A" else (3 if grade == "B" else 2), grades))
 # print(word)
+
+
+
+
+###______________________----------------filter
+
+
+
+
+#------use filter in the lambda for even and odd
+
+
+# nums=[1,2,3,4,5,6,7,8,9]
+# even_odd=list(filter(lambda x:x%2==0 ,nums))
+# print(even_odd)
+
+
+
+# l1 = [-2, -1, 4, 5, 6]
+# l2=list(filter(lambda x:  x < 0, l1))
+# print(l2)
