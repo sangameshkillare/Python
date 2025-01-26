@@ -37,6 +37,12 @@
 # print(add(3,4))
 
 
+# add = lambda a,b: a+b 
+# print(add(3, 4))
+
+
+
+
 #-----------------
 
 # add=lambda x,y:x+y | x*y 
@@ -47,10 +53,12 @@
 # print(add(3,4))
 
 
-# imp question decimal ro binary or vise versa
 
 
-#write a program to print the squre in list 
+
+# ------------------write a program to print the squre in list 
+
+
 
 # numbers=[1,2,4,6]
 # square=map(lambda x :x**2,numbers)
@@ -209,8 +217,34 @@
 
 
 # pairs = [(1, 3), (4, 1), (2, 3), (4, 3)]
-# sorted_pairs = sorted(pairs, key=lambda x: (x[0], x[1]))
-# print(sorted_pairs)  # Output: [(4, 1), (1, 3), (2, 3), (4, 3)]
+# sorted_pairs=sorted(pairs,key=lambda x:(x[1],x[0]))
+# print(sorted_pairs)
 
 
 
+#----------------------fibo series
+
+
+# n=int(input("Enter the number :"))
+# for i in range(0,n):
+#     n=i
+#     fibo=lambda n:n if n<=1 else fibo(n-1) + fibo(n-2)
+#     print(f"Fibonacchi of {i} th term is {fibo(n)}")
+
+
+
+#____________________________finding sq of list 
+
+
+
+# l=[1,2,3,4,5,6]
+# l2=list(map(lambda x:x**2,l))
+# print(l2)
+
+
+#_________________________________
+
+
+# grades = ["A", "B", "C", "D"]
+# word=list(map(lambda grade: 4 if grade == "A" else (3 if grade == "B" else 2), grades))
+# print(word)
