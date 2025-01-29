@@ -38,3 +38,50 @@
    
 # num=int(input("enter the number :"))
 # print(f"The sum of N number you enetered is {sum(num)}")
+
+
+
+
+
+
+#-------------------GCD by using recusion
+
+
+
+
+# def gcd(a, b):
+#     if b == 0:
+#         return a
+#     else:
+#         return gcd(b, a % b)
+
+# print(gcd(48,18))  
+
+
+
+
+#---------------reverse a string using recursion
+
+
+
+# def string(r):
+#     if len(r)==0:
+#         return r
+#     else:
+#         return r[-1]+string(r[:-1]) 
+    
+    
+# print(string("sangamesh"))
+
+
+
+#____________________________power of n numbers
+
+
+
+def power(x, n):
+    if n == 0:
+        return 1
+    return x * power(x, n - 1)
+
+print(power(2, 4))  
