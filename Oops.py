@@ -243,3 +243,106 @@
 # obj.fun1(10,2)
 # obj.fun2()
 # obj.fun3()
+
+
+
+# #------------herachical 
+
+# class parent:
+#     def fun1(self,a,b):
+#         self.a=a
+#         self.b=b
+# class child1(parent):
+#     def fun2(self):
+#         print(self.a+self.b)
+# class child2(parent):
+#     def fun3(self):
+#         print(self.a*self.b)
+
+# object1=child1()
+# object1.fun1(5,4)
+# object1.fun2()
+        
+# object=child2()
+# object.fun1(5,5)
+# object.fun3()
+
+
+# Parent contains fun1(), which initializes a and b.
+# Child1 inherits from Parent and has fun2() to perform addition.
+# Child2 inherits from Parent and has fun3() to perform multiplication.
+# We create separate instances of Child1 and Child2 to use their respective functions.
+
+
+#-------------hybrid
+
+
+# class Grand_parent:
+#     def fun1(self,a,b):
+#         self.a=a
+#         self.b=b
+# class parent1(Grand_parent):
+#     def fun2(self):
+#         print(self.a+self.b)
+# class child1(parent1):
+#     def fun3(self):
+#         print(self.a*self.b)
+# class parent2(Grand_parent):
+#     def fun4(self):
+#         print(self.a/self.b)
+# class child2(parent2):
+#     def fun5(self):
+#         print(self.a-self.b)
+
+# object=child1()
+# object.fun1(10,5)
+# object.fun2()
+# object.fun3()
+
+
+# object=child2()
+# object.fun1(10,5)
+# object.fun4()
+# object.fun5()
+
+
+
+#university ---> school ----> students
+
+
+
+# class university():
+#     def fun1(self):
+#         print("ite form university")
+# class school(university):
+#     def fun2(self):
+#         print("it is from school")
+# class student1(school):
+#     def fun3(self):
+#         print("im student 1")
+        
+# class student2(school):
+#     def fun4(self):
+#         print("im student 2")
+    
+
+
+# class a:
+#     def fun1(self):
+#         print("fun1 ")
+# class b(a):
+#     def fun2(self):
+#         print("fun2 ")
+# class c(a):
+#     def fun3(self):
+#         print("fun3 ")
+# class d(b,c):
+#     def fun4(self):
+#         print("from fun4")
+
+# obj=d()
+# obj.fun1()
+# obj.fun2()
+# obj.fun3()
+# obj.fun4()
+    
