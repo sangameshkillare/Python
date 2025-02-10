@@ -340,9 +340,13 @@
 #     def fun4(self):
 #         print("from fun4")
 
+
+
+
+
+
 # obj=d()
 # obj.fun1()
 # obj.fun2()
 # obj.fun3()
 # obj.fun4()
-    
