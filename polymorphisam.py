@@ -77,6 +77,9 @@
 
 #----------method ooverloading
 
+# Overloading is a concept in programming where multiple functions or methods have the same name but different parameters. It allows for improved code readability and flexibility. Overloading can occur in methods (method overloading) or operators (operator overloading), depending on the programming language.
+
+
 
 # class calculator:
 #     def add(self,a,b=0,c=0,d=0):
@@ -108,8 +111,14 @@ class father:
         
 class sangamesh(father):
     def home(self):
-        super().home()
+        # super().home()
         print("This is sangamesh's home.")
         
 whos=sangamesh()
 whos.home()
+
+
+
+#-----------------exeption handling 
+
+
