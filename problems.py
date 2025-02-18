@@ -165,19 +165,20 @@
 
 
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+# def is_prime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2, int(n**0.5) + 1):
+#         if n % i == 0:
+#             return False
+#     return True
 
-def prime_series(limit):
-    primes = [n for n in range(2, limit + 1) if is_prime(n)]
-    return primes
+# def prime_series(limit):
+#     primes = [n for n in range(2, limit + 1) if is_prime(n)]
+#     return primes
 
-# Get user input and print prime numbers
-limit = int(input("Enter the limit: "))
-print("Prime numbers up to", limit, ":", prime_series(limit))
+# # Get user input and print prime numbers
+# limit = int(input("Enter the limit: "))
+# print("Prime numbers up to", limit, ":", prime_series(limit))
+
 

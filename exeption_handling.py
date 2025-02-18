@@ -145,37 +145,45 @@
 #---------------bank managment system
 
 
-class deposit (Exception):
-    pass
-class withdraw(Exception):
-    pass
-class check(Exception):
+class InvalidAmountError (Exception):
     pass
 
-class bank:
-    def assign (self,withdraw,deposit,check):
-        self.deposit=deposit
-        self.withdraw=withdraw
-        self.ckeck=check
+class InvalidNumber(Exception):
+    pass
+
+class Bank:
+    
+    def deposit(self,balance,add):
+        self.balance=balance
+        self.add=add
+        print(f"Your {add} deposited sucssefully in your acount . Total balance-----> {balance}+{add}")
         
-    def code(self,pin,attempt):
-        correct_pin=1234
-        self.pin=int(input("enter the pin :"))
-        if self.pin==correct_pin :
-            print("Correct Pin ,accrss Granted :")
+    
+    
+    def withdraw(self,amount):
+        self.amount=amount
+        if amount <=0:
+            raise InvalidNumber ("please enter valid number :")
+        if amount>self.balance:
+            raise InvalidAmountError(f"Insufficient fund please check your Blance .")
         else:
-            print("Wrong Pin , Please enter correct pin :")
+            actual=self.balance-amount
+            print(f"Amount successfully withdrawn = {actual}")
             
         
-    def deposit_money(self,next):
-        self.next=int(input("Press 1 to deposit and 2 for withdraw :"))
-        
-        if self.next==1:
-            def deposit(self,amount):
-                self.amount=int(input("Enter the amount to deposit :"))
-                
+balance=0
+add=int(input("Enter the amount Deposit amount :-"))
+amount=int(input("Enter the amount withdaw amount :-"))
+
+try:
+    object=Bank()
+    print("1) deposit")
+    print("2) withdraw")
+    activity=int(input("enter number what you want to do :"))
+    object.deposit(balance,add)
+    object.withdraw(amount)
     
-
-
+except InvalidAmountError as e:
+    print(e)
     
     

@@ -60,38 +60,40 @@
 
 
 
-# numbers=[1,2,4,6]
-# square=map(lambda x :x**2,numbers)
-# print(list(square))    #for store the element .
+# original=[2,4,5,8]
+# square=list(map(lambda x : x**2,original))
+# print(list(square))#for store the element .
 
 
-# #write a program to print the cube of unique element  in list 
+# -----------------------#write a program to print the cube of unique element  in list 
 
 # numbers=[1,2,4,6]
 # square=map(lambda x :x**3,numbers)
 # print(set(square))    #for store the element .
 
 
-#even number
+#--------------------------even number
 
 
-#write a program to print the squre in list 
-#write a program to print the squre in list 
 
-# numbers=[1,2,4,6]
-# square=map(lambda x :x**2,numbers)
-# print(list(square))    #for store the element .
-# #even
+# #-------------------------even
+
+
 # numbers=[1,2,4,6]
 # square=list(filter(lambda x :x%2==0,numbers))
 # print(list(square))    #for store the element .
-# #odd
+
+
+# #----------------------------odd
+
+
 # numbers=[1,2,4,6]
 # square=list(filter(lambda x :x%2!=0,numbers))
 # print(list(square))  
 
 
-#sort list using lambda
+#---------------sort list using lambda
+
 # city=["mumbai","Banglore","Pune","nashik"]
 # sorted_format=sorted(city ,key=lambda city:city.lower(),reverse=True)
 # print(sorted_format)
@@ -100,9 +102,6 @@
 # sort=sorted(list1 ,key=lambda list1:list1 )
 # print(list1)
 
-# list1=[1,2,2,3,6,5,4,8,9,6]
-# sort=sorted(list1 ,key=lambda list1:list1)
-# print(list1)
 
 
 
@@ -149,11 +148,11 @@
 
 
 
-#----------even or odd
+# #----------even or odd
 
 
 # nums=[1,2,3,4,5,6,7,8,9]
-# even_odd=list(map(lambda x:x if x%2==0 else 'odd',nums))
+# even_odd=list(map(lambda x:x if x%2==0 else "odd",nums))
 # print(even_odd)
 
 
@@ -172,12 +171,12 @@
 # print(even_odd)
 
 
-#---------------sort lis with tuple element
+#---------------sort list with tuple and list element
 
 
 
-# list=[(3,4),(5,6),(10,3)]
-# sorted_list=sorted(list, key=lambda x:x[0]) #[1 or 0 ] are differs 0 is for 1 st eelement of tuple and 1 is stand for second element.
+# list=[[3,4],[5,6],[10,3]]
+# sorted_list=sorted(list, key=lambda x:x[0])           #----------------[1 or 0 ] are differs 0 is for 1 st eelement of tuple and 1 is stand for second element.
 # print(sorted_list)
 
 

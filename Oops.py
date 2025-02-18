@@ -350,3 +350,49 @@
 # obj.fun2()
 # obj.fun3()
 # obj.fun4()
+
+
+
+
+
+#--------------- __ init__ is a spacial method  which called automatically , no need to call while ceating an object .
+
+
+# class computer:
+    
+#     def cofig(self,name,bob):
+#         self.name=name
+#         self.bob=bob
+#         print(f"From config : ",bob,name )
+        
+        
+        
+#     def cofig2(self):
+#         print(f"From config-2 : ",self.bob,self.name )
+        
+        
+# object=computer()
+# object.cofig("sangamesh",2007)
+# object.cofig2()
+
+
+
+
+#------------look to this code here we have create a  class computer and inside it we have two function. In first one there is special method called init and passing it value using self keyword (self is compulsory argument to access the variables in other function , increaces code simplacity , it is buildin keyword/function  or in another words using self we are binding data to every function or method  and they are working together .) . after we have created object named a object1 and passing it value , it will inisilize the values to the init function with the help of self keyword .
+
+
+# class computer:
+    
+#     def __init__(self,name,bob):
+#         self.name=name
+#         self.bob=bob
+#         print(f"From config : ",bob,name )
+        
+        
+        
+#     def cofig2(self):
+#         print(f"From config-2 : ",self.bob,self.name )
+        
+        
+# object1=computer("sangamesh",2007)
+# object1.cofig2()
