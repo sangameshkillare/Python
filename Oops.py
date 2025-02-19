@@ -126,231 +126,6 @@
         
 
 
-#---------------------------singal inheritance
-
-
-
-# class parent1 :
-#     def fun_1(self):
-#         print("hello I am from fun_1 in parent1 class")
-# class child(parent1):
-#     def fun_2(self):
-#         print("i am from child hello")
-        
-# object=child()
-# object.fun_1()
-# object.fun_2()
-                             
-                             
-                             
-# class parent1 :
-#     def fun_1(self):
-#         print("Bholenath")
-# class child(parent1):
-#     def fun_2(self):
-#         print("sangamesh")
-        
-# object=child()
-# object.fun_1()
-# object.fun_2()
-
-
-
-# class BankAccount:
-#     def account_details(self):
-#         print("Bank Account: Savings, Balance: $10,000")
-
-# class SavingsAccount(BankAccount):
-#     def interest_rate(self):
-#         print("Interest Rate: 5% per year")
-
-# # Creating an object of SavingsAccount class
-# acc = SavingsAccount()
-# acc.account_details()  # Inherited method
-# acc.interest_rate()    # Child class method
-
-
-# class calculator:
-#     def input_number(self,a,b):
-#         self.a=a
-#         self.b=b
-# class add(calculator):
-#     def fun(self):
-#         return self.a + self.b
-
-# object=add()
-# object.input_number(4,7)
-# print(object.fun())
-
-
-
-#---------multiple 
-
-
-
-# class parent1:
-#     def fun1(self):
-#         print("hello from fun1 ")
-# class parent2:
-#     def fun2(self):
-#         print("hello from fun 2")
-# class parent3(parent1,parent2):
-#     def fun3(self):
-#         print("hello from fun3")
-    
-# obj=parent3()
-# obj.fun1()
-# obj.fun2()
-# obj.fun3()
-
-
-# class inputnumbers:
-#     def input(self,a,b):
-#         self.a=a
-#         self.b=b
-# class Add:
-#     def add(self):
-#         return self.a+self.b
-    
-# class calculator(inputnumbers,Add):
-#     pass
-
-# obj=calculator()
-# obj.input(5,5)
-# print(obj.add())
-
-
-
-
-#----------multilevel 
-
-
-
-# class grand_father:
-#     def fun1(self,a,b):
-#         self .a=a
-#         self.b=b
-        
-# class parent(grand_father):
-#     def fun2(self):
-#         print(self.a+self.b)
-    
-# class child(parent):
-#     def fun3(self):
-#         print(self.a * self.b)
-        
-# obj=child()
-# obj.fun1(10,2)
-# obj.fun2()
-# obj.fun3()
-
-
-
-# #------------herachical 
-
-# class parent:
-#     def fun1(self,a,b):
-#         self.a=a
-#         self.b=b
-# class child1(parent):
-#     def fun2(self):
-#         print(self.a+self.b)
-# class child2(parent):
-#     def fun3(self):
-#         print(self.a*self.b)
-
-# object1=child1()
-# object1.fun1(5,4)
-# object1.fun2()
-        
-# object=child2()
-# object.fun1(5,5)
-# object.fun3()
-
-
-# Parent contains fun1(), which initializes a and b.
-# Child1 inherits from Parent and has fun2() to perform addition.
-# Child2 inherits from Parent and has fun3() to perform multiplication.
-# We create separate instances of Child1 and Child2 to use their respective functions.
-
-
-#-------------hybrid
-
-
-# class Grand_parent:
-#     def fun1(self,a,b):
-#         self.a=a
-#         self.b=b
-# class parent1(Grand_parent):
-#     def fun2(self):
-#         print(self.a+self.b)
-# class child1(parent1):
-#     def fun3(self):
-#         print(self.a*self.b)
-# class parent2(Grand_parent):
-#     def fun4(self):
-#         print(self.a/self.b)
-# class child2(parent2):
-#     def fun5(self):
-#         print(self.a-self.b)
-
-# object=child1()
-# object.fun1(10,5)
-# object.fun2()
-# object.fun3()
-
-
-# object=child2()
-# object.fun1(10,5)
-# object.fun4()
-# object.fun5()
-
-
-
-#university ---> school ----> students
-
-
-
-# class university():
-#     def fun1(self):
-#         print("ite form university")
-# class school(university):
-#     def fun2(self):
-#         print("it is from school")
-# class student1(school):
-#     def fun3(self):
-#         print("im student 1")
-        
-# class student2(school):
-#     def fun4(self):
-#         print("im student 2")
-    
-
-
-# class a:
-#     def fun1(self):
-#         print("fun1 ")
-# class b(a):
-#     def fun2(self):
-#         print("fun2 ")
-# class c(a):
-#     def fun3(self):
-#         print("fun3 ")
-# class d(b,c):
-#     def fun4(self):
-#         print("from fun4")
-
-
-
-
-
-
-# obj=d()
-# obj.fun1()
-# obj.fun2()
-# obj.fun3()
-# obj.fun4()
-
 
 
 
@@ -378,6 +153,89 @@
 
 
 
+#-----------------
+
+
+# class a:
+#     def __init__(self):
+#         print("This is init from A")
+        
+#     def feature1(self):
+#         print("this is feature 1")
+        
+#     def feature2(self):
+#         print("this is fratuer 2")
+
+# class b (a):
+#     def __init__(self):
+#         super().__init__()                    #--------------------super keyword 
+#         print("This is init from b")
+        
+#     def feature3(self):
+#         print("this is feature 3")
+        
+#     def feature(self):
+#         print("this is fratuer ")
+        
+
+# # obj=a()
+# obj=b()     #--------it will print init from b not from a beacase if class have  init method then it dont go to the parent class and if we want init from  parent ther we want to use super() keyword .
+
+
+
+
+
+
+#-------------
+# # When you create an instance of class c, the __init__ method of class c is called. Inside this __init__ method, you have a call to super().__init__(). In Python, super() follows the method resolution order (MRO) to determine which class's __init__ method to call.
+
+# In your case, class c inherits from both class a and class b. The MRO for class c is [c, a, b, object]. This means that super().__init__() in class c will call the __init__ method of class a first, and not class b.
+
+
+
+# class a:
+#     def __init__(self):
+#         print("This is init from A")
+        
+#     def feature1(self):
+#         print("this is feature 1")
+        
+#     def feature2(self):
+#         print("this is fratuer 2")
+
+# class b :
+#     def __init__(self):
+#         print("This is init from b")
+        
+        
+#     def feature3(self):
+#         print("this is feature 3")
+        
+#     def feature4(self):
+#         print("this is fratuer ")
+        
+        
+# class c(a,b) :
+#     def __init__(self):
+#         super().__init__()
+       
+#         print("This is init from c")
+        
+#     def feature5(self):
+#         print("this is feature 3")
+        
+#     def feature6(self):
+#         print("this is fratuer ")
+
+
+# obj=c() 
+
+
+
+
+
+
+
 #------------look to this code here we have create a  class computer and inside it we have two function. In first one there is special method called init and passing it value using self keyword (self is compulsory argument to access the variables in other function , increaces code simplacity , it is buildin keyword/function  or in another words using self we are binding data to every function or method  and they are working together .) . after we have created object named a object1 and passing it value , it will inisilize the values to the init function with the help of self keyword .
 
 
@@ -396,3 +254,64 @@
         
 # object1=computer("sangamesh",2007)
 # object1.cofig2()
+
+
+
+
+
+#----------instance variable and class variable in oops 
+
+
+# class car ():
+    
+#     wheels=4                                   #--------------class variable beacuse of class namespace 
+    
+#     def __init__(self):
+#         self.brand="bmw "                      #--------------instance variable because instance namespaces 
+#         self.millage=10
+        
+    
+    
+# obj1=car()
+# obj2=car()
+# obj2.brand="tata"
+# obj2.millage=6
+
+
+# print(obj1.brand,obj1.millage,obj1.wheels)
+# print(obj2.brand,obj2.millage,obj1.wheels)
+
+
+
+
+#---------------inner class and outer class 
+
+
+# class student():
+    
+#     def __init__(self,name,rollno):
+#         self.name=name
+#         self.rollno=rollno
+#         self.lap=self.laptop()         #-------------object of laptop( ) class should inside of outer class normalli i __init__
+        
+#     class laptop():
+        
+#         def __init__(self):
+#             self.brand="hp"
+#             self.ram=8
+            
+#         def show(self):
+#             print(self.brand,self.ram)
+            
+#     def show(self):
+#         print(self.name,self.rollno)
+    
+            
+            
+# object=student('sangamesh',15)
+# # print(object.name,object.rollno)
+# object.show()
+# object.lap.show()
+
+# print(object.lap.brand,object.lap.ram)
+            
