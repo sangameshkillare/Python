@@ -105,17 +105,17 @@
 
 
 
-class father:
-    def home(self):
-        print("This is sangamesh fathers Home .")
+# class father:
+#     def home(self):
+#         print("This is sangamesh fathers Home .")
         
-class sangamesh(father):
-    def home(self):
-        # super().home()
-        print("This is sangamesh's home.")
+# class sangamesh(father):
+#     def home(self):
+#         # super().home()
+#         print("This is sangamesh's home.")
         
-whos=sangamesh()
-whos.home()
+# whos=sangamesh()
+# whos.home()
 
 
 
