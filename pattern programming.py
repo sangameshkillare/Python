@@ -23,11 +23,28 @@
 # *****
 # *****
 
+
+#  _____________________# with two while loops 
+
+
 # n=int(input("Enter a number:"))
 # i=1
+# while i <=n:
+#     j=n
+#     while j>=0:
+#         print('*',end="")
+#         j-=1
+#     print()
+#     i+=1
+    
+
+#_________________________
+
 # while i<=n:
 #     print("*"*n)
 #     i+=1
+
+#-____________________________
 
 # for i in range(n):
 #     print("*"*n)
@@ -111,6 +128,33 @@
 # ****
 
 
+
+
+
+
+
+# n=5
+# i=1
+
+# while i<=n:
+#     j=i
+#     while j>0:
+#         print(j,end="")
+#         j-=1
+#     i+=1
+#     print()
+
+
+
+
+
+
+
+
+
+
+
+
 # n=int(input("Enter a number:"))
 # # # i=1
 # while i<=n:
@@ -181,8 +225,8 @@
 # *
 
 
-# n=int(input("Enter a number:"))
-# i=n
+n=int(input("Enter a number:"))
+i=n
 # while i>=0:
 #     j=1
 #     while j<=i:
@@ -192,10 +236,10 @@
 #     i-=1
 
 
-# for i in range(n+1,0,-1):
-#     for j in range(0,i-1):
-#         print("*",end="")
-#     print()
+for i in range(n+1,0,-1):
+    for j in range(0,i-1):
+        print("*",end="")
+    print()
 
 
 

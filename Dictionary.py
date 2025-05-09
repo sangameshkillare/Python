@@ -6,7 +6,7 @@ dict3={1:"ram,5,sam"}
 # dict["name"]="killare" #this is how we can modify and change the element.
 # print(dict)
 
-#dict["location"]="pune"
+# dict["location"]="pune"
 # dict.update({"location":"pune"})  #Add new key and value in dictionaries
 # print(dict)
  
@@ -27,9 +27,9 @@ dict3={1:"ram,5,sam"}
 # del dict
 # print(dict)
 
-# dict.pop("name")
+# dict.pop['name']
+# dict.pop('name')
 # print(dict)
-
 
 
 # dict.popitem()

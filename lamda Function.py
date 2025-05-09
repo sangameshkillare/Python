@@ -61,20 +61,31 @@
 
 
 # original=[2,4,5,8]
-# square=list(map(lambda x : x**2,original))
-# print(list(square))#for store the element .
+# square=list(map(lambda x : x*x,original))
+# print((square))#for store the element .
+
+# original=[2,3,4,5]
+# square=list(map(lambda x: x**2 , original))
+# print((square))
 
 
 # -----------------------#write a program to print the cube of unique element  in list 
 
 # numbers=[1,2,4,6]
 # square=map(lambda x :x**3,numbers)
-# print(set(square))    #for store the element .
+# print(list(square))    #for store the element .
 
 
 #--------------------------even number
 
 
+# original =[1,2,3,4,5,6,7,8,9]
+# even=list(map(lambda x:x%2==0,original))
+# print(list(even))
+
+# original =[1,2,3,4,5,6,7,8,9]
+# even=list(filter(lambda x:x%2==0,original))
+# print(list(even))
 
 # #-------------------------even
 
@@ -200,7 +211,7 @@
 
 # words = ["banana", "apple", "cherry","chiku","zen","sanb"]
 
-# sorted_words = sorted(words, key=lambda x:x[::-1])
+# sorted_words = sorted(words, key=lambda x:x[::-1],reverse=True)
 
 # print(sorted_words) 
 

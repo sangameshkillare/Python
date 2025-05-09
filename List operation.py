@@ -1,4 +1,4 @@
-# List=["Apple","WaterMelone","Papaya","Mango"]
+# List=["Apple","Apple","WaterMelone","Papaya","Mango"]
 
 
 # a=len(List)
@@ -23,7 +23,7 @@
 
 ###pop
 
-# List.pop(3)
+# List.remove("Apple")
 # print(List)
 
 ###Remove
@@ -58,11 +58,11 @@
 #wap to print list in reverse order
 
 
-# list=[1,2,3,4,5,6,7,8,9,0]
-# # i=len(list)-1
+list=[1,2,3,4,5,6,7,8,9,0]
+# i=len(list)-1
 
-# # for i in list[::-1]:
-# #     print(i)
+# for i in list[::-1]:
+#     print(i)
 
 # for i in range(len(list)-1,-1,-1):
 #     print(i)
@@ -74,6 +74,7 @@
 
 
 # list=[1,2,2,3,4,5,9,4,7]
+# print(sum(list))
 # list.append(55)
 # print(list)
 
@@ -85,7 +86,7 @@
 # print(max(list))
 # print(min(list))
 # set1=set(list)
-# # print(set1)
+# print(set1)
 # list.pop(5)
 # # print(list)
 # del list
@@ -101,21 +102,13 @@
 
 # list.remove(1)
 # print(list)
-
 # print(list.count(1))
-
 # print(sum(list))
-
 # index=list.index(3)
-
-
 # print(list.reverse())
-
 # list2=list.copy()
 # print(list2)
-
 # print(type(list))
-
 # sort=sorted(list)
 # print(sort)
 
@@ -136,3 +129,68 @@
 
 # p=eval(input("enter set : "))
 # print(p)
+
+#----------- topic-concatination,indexing,1d,2d,3d list,slicing
+
+#indexing 
+
+
+# list=[1,2,3,4,5,6,7,8,9,10]
+# print(list[3])
+# print(list[10])
+
+#slicing
+
+# list=[1,2,3,4,5,6,7,8,9,10]
+
+
+# print(list[1:5])
+# print(list[0:])
+# print(list[:])#all
+# print(list[1::2])#even
+# print(list[0::2])#odd
+
+#-----with using buildin functions
+
+# list.reverse()
+# print(list)
+
+#-------without using build in functions
+
+# print(list[::-1])#reverse
+
+# print(list[5::-1])
+# print(list[::-2])
+
+#--------------
+
+
+
+# print(list[4:5])#print 5
+# print(list[1:3:2])
+
+
+#------------------examples of indexing in multi dimentional list
+
+
+# numbers=[1,2,3,4,5,6,7,8,9,10]
+# print(numbers[8:0:-3])
+
+
+# Number = [1,2,3,[4,5,["Richa","Vaishnavi",34,["it",["It-python"],23,54],6]]]
+# tin=Number[3][2][3][1][:]
+# #tin=Number[3[2[1:4]]]
+# print(tin)
+
+# print(Number[3][4::-1])
+
+
+# List = [23, 43, 54, [45, 65, 43, (45, 65, 76, [75, 54, [45, 76, 87, "Python", 43, 65], 65, 8], 45, 43), 54, 65, "Raj"]]
+
+# python = List[3][3][3][2][3]
+# print(python)
+
+# for element in python:
+#     if element == "Python":
+#         print(element)
+#         break
