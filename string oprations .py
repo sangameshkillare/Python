@@ -1,3 +1,55 @@
+
+#what is string and what are the diff ways to create string ?
+#string is mutable and immutable in nature?
+#WAP to print string =" I like Python programming " output ="programmingpythonlikeI"
+#what is difference betn capitalize and title in string? with example .
+#what are different operation in string explain all syntaxand with their example ?
+
+
+#Q=1)what is string and what are the diff ways to create string ?
+
+
+#--> String is the sequense of the charecter enclosed in the qoutes (single,double ,triple,f-string).
+
+#Proof =>
+# s1=('sangamesh')
+# print(s1)
+# s2=("sangamesh")
+# print(s2)
+# s3=(''' sangamesh 
+#     B
+#     Killare''')
+# print(s3)
+
+
+# name = "Sangameshwar"
+# s5 = f"Hello, {name}!"
+# print(s5)  # Output: Hello, Sangameshwar!
+
+
+
+#Q=2) string is mutable and immutable in nature?
+
+
+#-->Strings in Python are immutable, meaning once a string is created, it cannot be changed.
+
+#Proof=>
+# s = "Hello"
+# s[0] = "J"  # ❌ This will raise an error: TypeError: 'str' object does not support item assignment
+
+
+##WAP to print string =" I like Python programming " output ="programmingpythonlikeI"
+
+# string =" I like Python programming "
+# string2=string[::-1]
+
+# print(string2.lower())
+
+
+
+
+
+
 ###String concatention
 
 #string is mutable or immutable 
@@ -55,3 +107,5 @@
 # print(name.title())
 # print(name.capitalize()+education.title())
 # print(len(name))
+
+

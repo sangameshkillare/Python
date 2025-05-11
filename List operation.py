@@ -73,7 +73,8 @@ list=[1,2,3,4,5,6,7,8,9,0]
 #build in function 
 
 
-# list=[1,2,2,3,4,5,9,4,7]
+list=[1,2,2,3,4,5,9,4,7]
+print(list.reverse())
 # print(sum(list))
 # list.append(55)
 # print(list)
@@ -93,6 +94,7 @@ list=[1,2,3,4,5,6,7,8,9,0]
 # # print(list)
 # list.clear()
 # print(list)
+
 
 # list.insert(5,11)
 # print(list)
