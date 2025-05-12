@@ -35,7 +35,7 @@
 
 #Proof=>
 # s = "Hello"
-# s[0] = "J"  # ❌ This will raise an error: TypeError: 'str' object does not support item assignment
+# s[0] = "J"  #  This will raise an error: TypeError: 'str' object does not support item assignment
 
 
 ##WAP to print string =" I like Python programming " output ="programmingpythonlikeI"
