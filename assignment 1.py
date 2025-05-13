@@ -131,3 +131,233 @@
 # for i in range(len(lst)):
 #     lst.insert(i,5)
 # print(lst)
+
+
+
+
+## what is diff betwen list tuple ,set dict
+#what are the diffrent datatype in python and 15 operations on each
+
+
+#Q-1)
+
+#-->
+
+
+
+# | Type      | Ordered | Mutable | Duplicates Allowed      | Syntax Example               | Use Case                                       |
+# | --------- | ------- | ------- | ----------------------- | ---------------------------- | ---------------------------------------------- |
+# | **List**  | Yes     | Yes     | Yes                     | `my_list = [1, 2, 3]`        | Store ordered items, often with duplicates     |
+# | **Tuple** | Yes     | No      | Yes                     | `my_tuple = (1, 2, 3)`       | Fixed collections of items (e.g., coordinates) |
+# | **Set**   | No      | Yes     | No                      | `my_set = {1, 2, 3}`         | Unique items, like tags or categories          |
+# | **Dict**  | Yes     | Yes     | Keys: No<br>Values: Yes | `my_dict = {'a': 1, 'b': 2}` | Key-value pairs (e.g., name → age)             |
+
+
+#Q-2)
+
+#--> 
+#1) list 
+# 15 Common Operations:
+# lst.append(5)
+
+# lst.extend([6, 7])
+
+# lst.insert(1, 10)
+
+# lst.remove(3)
+
+# lst.pop() / lst.pop(2)
+
+# lst.index(2)
+
+# lst.count(2)
+
+# lst.sort()
+
+# lst.reverse()
+
+# len(lst)
+
+# sum(lst)
+
+# min(lst) / max(lst)
+
+# lst[1] – Indexing
+
+# lst[1:3] – Slicing
+
+# for item in lst: – Looping
+
+
+#2) tuple
+
+# 15 Common Operations:
+# tup.count(2)
+
+# tup.index(3)
+
+# tup[0] – Indexing
+
+# tup[1:3] – Slicing
+
+# len(tup)
+
+# min(tup) / max(tup)
+
+# sum(tup)
+
+# 2 in tup
+
+# for i in tup: – Loop
+
+# sorted(tup) – Returns a list
+
+# tuple([1,2]) – Convert list to tuple
+
+# tup + (4, 5)
+
+# tup * 2
+
+# any(tup) / all(tup)
+
+# enumerate(tup)
+
+
+
+#3)set
+
+# 15 Common Operations:
+# s.add(4)
+
+# s.remove(2)
+
+# s.discard(5) – No error if not found
+
+# s.pop()
+
+# s.clear()
+
+# s.union({4, 5})
+
+# s.intersection({2, 3})
+
+# s.difference({1})
+
+# s.symmetric_difference({3, 4})
+
+# len(s)
+
+# 2 in s
+
+# set([1, 2, 2]) – Convert list to set
+
+# s.isdisjoint({10, 11})
+
+# s.issubset({1,2,3,4})
+
+# s.issuperset({1,2})
+
+# 4) dict
+
+# 5 Common Operations:
+# d["a"] – Access value
+
+# d.get("b")
+
+# d["c"] = 3 – Add/update
+
+# d.update({"d": 4})
+
+# d.keys()
+
+# d.values()
+
+# d.items()
+
+# d.pop("a")
+
+# d.popitem() – Removes last
+
+# "b" in d
+
+# len(d)
+
+# d.clear()
+
+# dict.fromkeys(["x", "y"], 0)
+
+# for k, v in d.items(): – Loop
+
+# del d["b"]
+
+
+
+#5)int
+
+# 15 Common Operations:
+# + Addition
+
+# - Subtraction
+
+# * Multiplication
+
+# / Division
+
+# // Floor Division
+
+# % Modulus
+
+# ** Exponentiation
+
+# abs(a) – Absolute value
+
+# round(b) – Round to nearest integer
+
+# int(b) – Convert to integer
+
+# float(a) – Convert to float
+
+# complex(a, b) – Create complex number
+
+# a > b, a < b, etc. – Comparisons
+
+# divmod(a, b) – Returns quotient and remainder
+
+# pow(a, b) – a to the power of b
+
+
+
+# 6) Strting
+
+
+# 15 Common Operations:
+# s.upper()
+
+# s.lower()
+
+# s.title()
+
+# s.capitalize()
+
+# s.strip() – Trim spaces
+
+# s.replace("hello", "hi")
+
+# s.find("world")
+
+# 'world' in s
+
+# s.count("l")
+
+# len(s)
+
+# s.split(" ")
+
+# " ".join(["hi", "there"])
+
+# s[0] – Indexing
+
+# s[0:5] – Slicing
+
+# s.endswith("d") / s.startswith("h")
+

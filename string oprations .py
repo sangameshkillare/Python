@@ -38,12 +38,75 @@
 # s[0] = "J"  #  This will raise an error: TypeError: 'str' object does not support item assignment
 
 
-##WAP to print string =" I like Python programming " output ="programmingpythonlikeI"
+#Q=3)WAP to print string =" I like Python programming " output ="programmingpythonlikeI"
 
 # string =" I like Python programming "
 # string2=string[::-1]
 
 # print(string2.lower())
+
+
+#Q=4)what is difference betn capitalize and title in string? with example .
+
+
+#-->
+# - .capitalize()
+# - Converts the first letter of the string to uppercase and all other letters to lowercase.
+# - It only affects the first character of the string.
+# - .title()
+# - Converts every word's first letter to uppercase.
+# - It applies title case to the entire string, making the first letter of each word uppercase while keeping other letters lowercase.
+
+
+
+
+
+# 15 Common Operations:
+# s='sangAmesh'
+# s.upper()
+
+# s.lower()
+
+# s.title()
+
+# s.capitalize()
+
+# s.strip() – Trim spaces
+# text = "   hello world   "
+# trimmed = text.strip()
+# print(trimmed)  # Output: 'hello world'
+
+
+# s.replace("hello", "hi")
+
+# s.find("world")
+
+# 'world' in s
+
+# s.count("l")
+
+# len(s)
+
+# s.split(" ")
+
+# sentence = "apple,banana,mango"
+# fruits = sentence.split(",")
+# print(fruits)  # Output: ['apple', 'banana', 'mango']
+
+
+# " ".join(["hi", "there"])
+
+# words = ['hello', 'world']
+# joined = " ".join(words)
+# print(joined)  # Output: 'hello world'
+
+
+# s[0] – Indexing
+
+# s[0:5] – Slicing
+
+# s.endswith("d") / s.startswith("h")
+
 
 
 

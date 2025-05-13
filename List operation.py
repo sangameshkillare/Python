@@ -1,3 +1,35 @@
+# 15 Common Operations:
+# lst.append(5)
+
+# lst.extend([6, 7])
+
+# lst.insert(1, 10)
+
+# lst.remove(3)
+
+# lst.pop() / lst.pop(2)
+
+# lst.index(2)
+
+# lst.count(2)
+
+# lst.sort()
+
+# lst.reverse()
+
+# len(lst)
+
+# sum(lst)
+
+# min(lst) / max(lst)
+
+# lst[1] – Indexing
+
+# lst[1:3] – Slicing
+
+# for item in lst: – Looping
+
+
 # List=["Apple","Apple","WaterMelone","Papaya","Mango"]
 
 

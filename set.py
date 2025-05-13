@@ -1,7 +1,22 @@
-#{Set} is collection of unorder elements and uniq element .
+#{Set} is collection of hetrogenious unorder elements and uniq element .
+
+#union,intersection,diff,simitric difference,sorted, add,update,min,max,del,length,pop,remove,clear,
 
 
-# set={1,2,3,4,5}
+#proof-->
+
+# set={1,1,2,3,4,5}
+# print(set)
+
+# set2={1,3,5,4,2,2,2,2,2}
+# print(set==set2)
+
+
+# whos performance is good , tuple,list or list ?
+
+
+# set={1,1,2,3,4,5}
+
 # print(set)
 # print(type(set))
 # set2={5,4,3,2,1}
@@ -22,7 +37,7 @@
 # print(ele)
 
 
-# ##multiple elementts add in set
+# ##multiple elementts add in set using update 
 # set.update([5,6,7])
 # print(set)
 
@@ -33,31 +48,65 @@
 # print(set)
 
 
+
+
+##clear and del and len function
+
+
+# s={1,2,3,4,5,5,5,5,5,5,5,6,7,8,9,0}
+# s.clear()
+# print(len(s))
+
+# del (s)
+# print(s)
+
+
+
+
+
 ###union , differnce,intersection
 
 
 # s={1,2,3,4,5}
-# s2={7,8,9,2}
-# new=s ^ s2 ## unionn= | ,diff= -,intersection =& ,semmetric difference=^
-# print(new)
-
-##clear and del and len function
-
-# #s.clear()
-# print(len(s))
-
-# #del (s)
-# # print(s)
+# s2={5,7,8,9,2}
+# union=s | s2
+# print(union)
+# intersection= s& s2
+# print(intersection)
+# diff=s-s2
+# print(diff)
+# semitric_diff=s ^ s2
+# print(semitric_diff)
 
 
-# s={1,2,3,4,5,6,9,8}
-# #d=sorted(s,reverse=True)
+# s4={'sa','ko','da'}
+# s3={'Bmw',"byd"}
+# union=s3|s4
+# diff=s3-s4
+# print(diff)
+# intersection=s3&s4
+# print(intersection)
+# semitric_diff=s3^s4
+# print(semitric_diff)
+
+
+# s={1,2,3,5,4,6,9,8}
+# d=sorted(s,reverse=True)
+# print(s)
+# print(sorted(s))
+# print(s.count(1)) #doesnt work because the there is no use of count in set 
 # print(min(s))
 # print(max(s))
 # print(len(s))
 
 # print(sorted(s))
 # s.pop()
+# print(s)
+
+# s.remove(5)
+# print(s)
+
+# s.update(['sa','ka','da'])
 # print(s)
 
 #print(sorted(s,reversed=True))
