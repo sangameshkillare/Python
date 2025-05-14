@@ -27,7 +27,7 @@
 
 
 
-##w.a.p to check no is odd or even
+#-------->w.a.p to check no is odd or even
 
 # num=int(input("Enter any number you want : "))
 # print(num)
@@ -38,7 +38,7 @@
 #     print(f"It is odd .")
 
 
-## W.a.p to find grater of 3 number.
+#-----> W.a.p to find grater of 3 number.
 
 # num=int(input("Enter any number you want But positive: "))
 
@@ -61,7 +61,7 @@
 
 
 
-## Write a program to check if a student has passed or failed based on a mark of 40.
+#---------> Write a program to check if a student has passed or failed based on a mark of 40.
 
 
 # mrk=int(input("Enter the markes :"))
@@ -74,7 +74,7 @@
 #     print("Fail")
 
 
-##. Write a program to check if a person is eligible to vote (age >= 18).  
+#--------> Write a program to check if a person is eligible to vote (age >= 18).  
 
 
 # age=int(input("Enter the age of person :"))
@@ -87,7 +87,7 @@
 
 
 
-##Write a program to classify a number as positive, negative, or zero.  
+#--------Write a program to classify a number as positive, negative, or zero.  
 
 # num=int(input("enter the number :"))
 
@@ -102,7 +102,7 @@
 
 
 
-##Write a program to check if a number is divisible by both 3 and 5. 
+#--------->Write a program to check if a number is divisible by both 3 and 5. 
 
 # num=int(input("enter the number :"))
 # print(num)
@@ -116,7 +116,7 @@
 #     print("error")
 
 
-##Write a program to check if three given sides can form a triangle.  
+#----------->Write a program to check if three given sides can form a triangle.  
 
 
 
@@ -130,7 +130,7 @@
 #     print("Error")
 
 
-##/// Write a program to check if a character entered is an alphabet or not.  
+#------> Write a program to check if a character entered is an alphabet or not.  
 
 # alfa=input("enter the alfabets :")
 # print(alfa)
@@ -142,7 +142,7 @@
 
 
 
-## Write a program to check if an entered character is a vowel or consonant.  
+#----------> Write a program to check if an entered character is a vowel or consonant.  
 
 
 
@@ -154,7 +154,7 @@
 #     print("It is consonent ")
     
     
-##Write a program to calculate a discount based on the purchase amount (e.g., 10% for purchases above $100).
+#------>Write a program to calculate a discount based on the purchase amount (e.g., 10% for purchases above $100).
 
 
 # purchase=float(input("enter the amout to get discouted amount :"))
@@ -171,7 +171,7 @@
 #     print(f"total payable amout ={purchase}")
 
 
-##Write a program to perform addition, subtraction, multiplication, or division based on the user’s choice.
+#----->Write a program to perform addition, subtraction, multiplication, or division based on the user’s choice.
 
 
 # num1=int(input("Enter 1st number :"))
@@ -191,3 +191,7 @@
 #     print(num1/num2)
 # elif choise== 4:
 #     print(num1*num2)
+
+
+
+#

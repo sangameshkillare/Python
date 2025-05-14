@@ -132,7 +132,8 @@
 
 ###Slicing
 
-# s1='sangamesh-Bholenath-killare '
+s1='sangamesh-Bholenath-killare '
+
 # print(s1[5:])
 # print(s1[7:5:-1])#here 7 is a starting point of operation and 5th index is end of the operation and -1 is the direction of the operation . 
 # print(s1[7:])
