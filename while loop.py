@@ -320,3 +320,40 @@
 # print(total)
 
 
+
+
+#1-10 and 10-1
+
+# i=1
+# while i<=10:
+#     print(i ,end=" ")
+#     i+=1
+# print()   
+
+# j=10
+# while j>0:
+#     print(j,end=" ")
+#     j-=1
+    
+    
+# even
+# n=100
+# i=2
+# while i<100:
+#     print(i)
+#     i+=2
+
+
+# reverse 1-100 even 
+# n=1
+# i=99
+# while i>1:
+#     print(i ,end=",")
+#     i-=2
+
+# reverse 1-100 odd
+n=1
+i=100
+while i>1:
+    print(i ,end=",")
+    i-=2

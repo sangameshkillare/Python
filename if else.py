@@ -194,4 +194,76 @@
 
 
 
-#
+#-----> *** wap to check Leap year  
+
+# year =int(input("Enter the year :"))
+# if (year % 4==0 and year%100!=0) or (year%400==0):
+#     print('Leap year')
+# else:
+#     print('Not leap year')
+
+# amstrong 
+
+
+
+# positive negative 
+# number >20
+# find the  greatest among 3 no 
+
+# num=int(input("enter the number :"))
+# if num > 0:
+#     print("The number is positive ")
+# elif num==0:
+#     print("The number is Zero.")
+# else:
+#     print("Number is negative.")
+
+
+
+# num=int(input("enter the number :"))
+# if num<20:
+#     print("less than 20.")
+    
+# else:
+#     print("Greater than 20")
+
+# num1 = int(input("Enter the 1st number: "))
+# num2 = int(input("Enter the 2nd number: "))
+# num3 = int(input("Enter the 3rd number: "))
+
+# if num1 >= num2 and num1 >= num3:
+#     print(f"{num1} is the greatest.")
+# elif num2 >= num1 and num2 >= num3:
+#     print(f"{num2} is the greatest.")
+# else:
+#     print(f"{num3} is the greatest.")
+
+# num1=int(input("enter the 1 number :"))
+# num2=int(input("enter the 2 number :"))
+# num3=int(input("enter the 3 number :"))
+
+
+# if num1 >num2:
+#     if num1>num3:
+#         print(f"{num1} is Greater than other .")
+        
+# elif num2 >num3:
+#     if num2>num1:
+#         print(f"{num2} is greater the others")
+        
+ 
+# elif num3 >num1:
+#     if num3>num2:
+#         print(f"{num3} is greater the others")
+    
+# else:
+#     print('invalid')
+
+
+# age=int(input('Enter the age :'))
+# if age >18:
+#     print('eligible')
+# elif age<18 and age>0:
+#     print('not eligible')
+# elif age<0:
+#     print("Person not exist")
