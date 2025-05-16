@@ -67,12 +67,12 @@
 
 #wap to print cumalative sum
 
-# i=5
+# i=1
 # sum=0
-# while i>=1:
+# while i<=5:
 #     sum=sum+i
-#     i-=1
-#     print(sum)
+#     i+=1
+#     print(sum ,end=' ')
 
 
 
@@ -320,7 +320,7 @@
 # print(total)
 
 
-
+# --------------------------------------------
 
 #1-10 and 10-1
 
@@ -352,8 +352,96 @@
 #     i-=2
 
 # reverse 1-100 odd
-n=1
-i=100
-while i>1:
-    print(i ,end=",")
-    i-=2
+# n=1
+# i=100
+# while i>1:
+#     print(i ,end=",")
+#     i-=2
+
+#sum  of 1-100
+
+# n=int(input("enter the number ="))
+# i=1
+# sum=0
+# while i<=n:
+#     sum=sum+i
+#     i+=1
+# print(f"This is sum of all numbers 1-100 {sum}")
+
+
+#cummilative sum
+
+
+# n=int(input("enter the number ="))
+# i=1
+# sum=0
+# while i<=n:
+#     sum=sum+i
+#     i+=1
+#     print(f"This is sum of all numbers 1-100= {sum}") 
+
+
+#true at odd false at even
+
+# i=1
+# n=10
+# while i<=n:
+#     if i %2==0:
+#         print('True')
+#     else:
+#         print('False')
+#     i+=1
+    
+    
+# i=1
+# n=10
+
+# while i<=n:
+#     if i %2==0:
+#         j=1
+#         while j<=i:
+#              print('*',end=' ')
+#              j+=1
+#         print()
+#     else:
+#         z=1
+#         while z<=i:
+#              print('#', end=' ')
+#              z+=1
+#         print()
+#     i+=1
+
+
+
+
+# n=int(input("enter num: "))
+# reverse=str(n)
+# length=len(reverse)
+# print(reverse)
+# i=0
+# new_revresed_num=''
+# while i <length:
+#     new_revresed_num=new_revresed_num+i
+# print(new_revresed_num)
+    
+    
+n = int(input("Enter num: "))
+reverse = str(n)
+length =   len(reverse)
+
+new_reversed_num = ''
+i = 0
+while i    < length:
+    new_reversed_num = reverse[i] + new_reversed_num
+    i += 1
+
+print(new_reversed_num)
+
+# num = int(input("Enter num: "))
+# reverse=0
+
+# while num>0:
+#     reverse=reverse*10+num%10
+#     num//=10
+# print(reverse)
+

@@ -149,30 +149,33 @@
 
 
 
-#_______________wap to print the special char , vowel ,  consonent , numbers and spaces. 
+# #_______________wap to print the special char , vowel ,  consonent , numbers and spaces. 
 
  
-string="Hi Welcome To @ India #indian at @14567 $"
+# string="Hi Welcome To @ India #indian at @14567 $"
 
-special=0
-vowel=0
-consonent=0
-digit=0
-space=0
+# special=0
+# vowel=0
+# consonent=0
+# digit=0
+# space=0
 
-for i in string:
-    if i.isnumeric():
-        digit+=1
-    elif i in "aeiouAEIOU":
-        vowel+=1
-    elif i.isspace():
-        space+=1
-    elif not i.isalnum():
-        special+=1
-    elif i.isalpha():
-        consonent+=1
+# for i in string:
+#     if i in "aeiouAEIOU":
+#          vowel+=1
+#     # if i.isnumeric():
+#     #     digit+=1
+#     # elif i in "aeiouAEIOU":
+#     #     vowel+=1
+#     # elif i.isspace():
+#     #     space+=1
+#     # elif not i.isalnum():
+#     #     special+=1
+#     # elif i.isalpha():
+#     #     consonent+=1
         
-print(vowel,consonent,digit,space,special)
+# # print(vowel,consonent,digit,space,special)
+# print(vowel)
     
     
     
