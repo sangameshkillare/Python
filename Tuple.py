@@ -1,4 +1,4 @@
-###Tuple in Imutable means it cannot be changed once decleared , it is similer to the list , it is writen in () brasses,ordered (index ,position  matters). 
+###Tuple in Imutable means it cannot be changed once decleared , it is similer to the list , it is writen in () brasses,ordered (index ,position  matters). , allow  duplicates .
 ##insert, append , replce can not be used here 
 #we can acsses the element the element .
 
@@ -18,7 +18,7 @@
 
 # -->Tuple just like the list which stores the multiple elements,ordered(each element have their unique index) and written in () brasses , but there is only on key dffierence is the elements in tuple is can not be modified, remove ,and cannot add any element in the tuple . 
 
-# tuple=(1,3,2,5,7,9,3)
+# tuple=(1,1,3,2,5,7,9,3)
 
 # tuple.append(6) 
 # print(tuple)

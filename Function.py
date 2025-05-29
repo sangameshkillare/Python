@@ -1,3 +1,92 @@
+#function is a block of code use to perform the specific task . types- predefined(min,max,sum,len,short,count,apend,extend,del,clear,remove,pop,del),userdefined(define by programmer),lambda(anomyous or unnamed function),recursive function.
+# list=[1,2,34,5,6,7,7]
+# str='sangamesh'
+# print(min(list))
+# print(min(list))
+# print(sum(list))
+# print(len(list))
+# print(min(str))
+# print(len(str))
+# list.append(11)
+# print(list)
+
+# print(list.remove(1))
+# print(list)
+# list.pop()
+# print(list)
+# list.clear()
+# print(list)
+# del list
+# print(list)
+
+
+# def name():
+#     print('sangamesh')
+
+# name()
+
+
+# def add():
+#     a=int(input('enter the a :'))
+#     b=int(input('enter the b :'))
+#     print(a+b)
+
+# add()
+
+# def add(a,b):
+#     print(f'addition : {a+b} and subtraction : {a-b}')
+#     # return a+b ,a-b
+# add(5,5)
+
+
+# def add(a,b):
+#     return f"addition {a+b} and suntraction {a-b}"
+# print(add(5,3))
+
+# def add(*num):
+#     return f"sum of the numbers :{sum(num)}"
+# print(add(1,2,3,4))
+
+# def add(a=1,b=1,c=1):#default ag=rgument
+#     return f"multiplication : {a*b*c}"
+# print(add(2,3))
+
+
+# def num(a,b,c):#keyword argument
+#     return f"a : {a},b:{b},c:{c}"
+# print(num(a=5,b=6,c=7))
+
+
+# def even_odd (num):
+#     if num%2==0:
+#         print('num is even.')
+#     else:
+#         print('num is odd.')
+
+# print(even_odd(3))
+# print(even_odd(2))
+
+
+#wap to find given num is  positive ,negative or 0
+
+def find(num):
+    if num>0:
+        return('the number is positive .')
+    elif num<0:
+        return('the number is negative')
+    else:
+        return('the number is zero.')
+
+print(find(4))
+print(find(-5))
+print(find(0))
+
+# def stdinfo(name,address,age):
+#     return f"name of std : {name} , address : {address} age : {age}"
+
+# print('sangamesh','dehu',21)
+
+
 # def my_function():   #Defining
 #     print("Hello from my_function") # block of code
     
