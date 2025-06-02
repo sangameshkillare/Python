@@ -69,17 +69,66 @@
 
 #wap to find given num is  positive ,negative or 0
 
-def find(num):
-    if num>0:
-        return('the number is positive .')
-    elif num<0:
-        return('the number is negative')
-    else:
-        return('the number is zero.')
+# def find(num):
+#     if num>0:
+#         return('the number is positive .')
+#     elif num<0:
+#         return('the number is negative')
+#     else:
+#         return('the number is zero.')
 
-print(find(4))
-print(find(-5))
-print(find(0))
+
+
+#wap to check even odd list
+
+
+# def even_odd (num):
+#     if num%2==0:
+#         print('num is even.')
+#     else:
+#         print('num is odd.')
+
+# list=[1,2,3,4,5,6,7,8,9,0]
+# for i in list:
+#     even_odd(i)
+
+
+#wap to check the year is leap year or not .
+
+def leap(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print('The year is a leap year')
+    else:
+        print('No')
+
+leap(2024)
+leap(2000)
+leap(1900)
+leap(2023)
+
+
+#to chek greatest of 3 no :
+
+
+# def major(num1, num2, num3):
+#     if num1 > num2 and num1 > num3:
+#         return f"{num1} is the greatest"
+#     elif num2 > num1 and num2 > num3:
+#         return f"{num2} is the greatest"
+#     elif num3 > num1 and num3 > num2:
+#         return f"{num3} is the greatest"
+#     else:
+#         return "No single number is strictly greater than the other two."
+
+# print(major(1, 2, 3))
+# print(major(3, 1, 2))
+# print(major(2, 3, 1))
+# print(major(1, 2, 2))
+# print(major(3, 3, 1))
+    
+# print(find(4))
+# print(find(-5))
+# print(find(0))
 
 # def stdinfo(name,address,age):
 #     return f"name of std : {name} , address : {address} age : {age}"
