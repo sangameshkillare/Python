@@ -1,33 +1,39 @@
 print('_____________ _______________________ _______________ __________________ ')
 print()
-print("                 Welcome to the Sudoku Ice Cream Parlor")
+print("                 Welcome to the Sudoku Ice-Cream Parlor")
 print("_____________ _______________________ _______________ __________________")
 
 # Menu data
 all_products_price = {
-    1: {'name': 'Chocolate', 'price': 100},
-    2: {'name': 'Belgium', 'price': 110},
-    3: {'name': 'Malai', 'price': 150},
-    4: {'name': 'Strawberry', 'price': 200},
-    5: {'name': 'Pineapple', 'price': 150},
-    6: {'name': 'Mix', 'price': 250},
-    7: {'name': 'Blueberry', 'price': 500},
+    1: {'name': 'Chocolate', 'single': 100 ,'Double':190,'Full-rich':500},
+    2: {'name': 'Belgium', 'single': 100 ,'Double':190,'Full-rich':500},
+    3: {'name': 'Malai', 'single': 100 ,'Double':190,'Full-rich':500},
+    4: {'name': 'Strawberry', 'single': 100 ,'Double':190,'Full-rich':500},
+    5: {'name': 'Pineapple', 'single': 100 ,'Double':190,'Full-rich':500},
+    6: {'name': 'Mix', 'single': 100 ,'Double':190,'Full-rich':500},
+    7: {'name': 'Blueberry', 'single': 100 ,'Double':190,'Full-rich':500},
+
 }
 
 def show_menu():
     print('\n\n____________----------- This is our menu --------------____________\n')
     for id, data in all_products_price.items():
-        print(f"{id}. {data['name']} Ice Cream (Single, Double, Rich) - Rs. {data['price']}")
+        print(f"{id}. {data['name']} Ice Cream (Single, Double, Rich) - Rs. {data['single','Double','Full-rich']}")
+
+
 
 def operations():
+
+    print("____________________________________________________________")
     print("\nChoose an operation:")
     print("1: Add Item")
     print("2: Cancel Buying")
     print("3: Show Cart")
     print("4: Remove Item")
     print("5: Checkout and Exit")
-
-def main():
+    print("____________________________________________________________")
+    
+def main(): 
     cart = {}
 
     while True:

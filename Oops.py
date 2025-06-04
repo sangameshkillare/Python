@@ -1,3 +1,17 @@
+# class is blueprint of the object .
+#the real time implementation of the class is caled as the object . or it is a instance of the class .
+#bottom to up 
+#popl divide the code in differet functions ,top to bottom approch 
+#oops divids in obj and class , bottom to top approch , inheritanc n polymorphism ,abstraction and encaptulation
+
+# what is object and what is class , explain with examaple ?
+# what is the diff between oops ans pop?
+# what is function what are different types of functions , explain all types of functions in detail ?
+# what is the difference between buildin funtion and user defined function?
+# what is the difference between user defined function and lambda function ?
+# what is difference between print and  return ?
+
+
 # class car:
 #     price=100
 #     gst=18/100
