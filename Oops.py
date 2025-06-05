@@ -12,6 +12,40 @@
 # what is difference between print and  return ?
 
 
+
+# static methods  dynamic methods 
+
+
+
+
+  #-----------creating and calling the class and object 
+  
+# class num:
+#     a=2
+#     b=3
+# object1=num()
+# print(object1.a)
+
+
+# class add:
+#     a=2
+#     b=4
+#     print(a+b)
+# obj2=add()
+# print(obj2.a)
+
+
+# class sub:
+#     a,b=5,4
+#     print(a-b)
+# obj1=sub()
+
+
+
+
+
+
+
 # class car:
 #     price=100
 #     gst=18/100
@@ -33,6 +67,43 @@
 # print(s.name)
 # print(s.last_name)
 # print(s.age)
+
+
+
+#----------------dynamic method 
+
+
+# class num:
+#   def div(self,a,b):
+#     print(a//b)
+  
+# obj1=num()
+# obj1.div(5,4)
+
+
+#--------------combine two strings witj the help of object and classes
+
+# class concate:
+#   def strings(self,a,b):
+#     str3=a+b
+#     print(str3)
+    
+    
+# object=concate()
+# object.strings("sangamesh"," $ killare")
+
+
+
+#----------class method
+
+
+class num:
+  @classmethod
+  def sub(cls):
+    print('hii from class method')
+    
+obj1=num()
+obj1.sub()
 
 
 
