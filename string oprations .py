@@ -147,6 +147,7 @@ s1='sangamesh-Bholenath-killare '
 #     print(x)
 
 
+
 #===------- membership operators in and no in 
 # print('sangamesh '  not in s1)
 # print('sangamesh '   in s1)

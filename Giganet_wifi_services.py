@@ -7,6 +7,7 @@ def view_plan():
     print("3. Premium Plan  | Speed: 200 Mbps | Subscription: Yearly    | Benefits: OTT, Premium Support  | Price: 6,500")
     print("4. Ultra Plan    | Speed: 500 Mbps | Subscription: Yearly    | Benefits: All Features Included | Price: 12,000")
 
+
 def suggest_plan():
     print()
     print()

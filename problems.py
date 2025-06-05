@@ -148,6 +148,7 @@
     
     
     
+    
 #---------------wap to print the n series of prime num
 
 

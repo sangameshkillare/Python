@@ -78,7 +78,33 @@
 #     print(a//b)
   
 # obj1=num()
-# obj1.div(5,4)
+# obj1.div(5,4)bject1
+
+
+
+
+# class calculator:
+#   @classmethod
+#   def add(self,a,b):
+#     return f"the addition is  : {a+b}"
+#   @classmethod
+#   def div(cls,a,b):
+#     return f"the division is  : {a/b}"
+#   @classmethod
+#   def sub(cls,a,b):
+#     return f"the substraction is  : {a-b}"
+#   @classmethod
+#   def mult(cls,a,b):
+#     # return f"the multition is  : {a*b}"
+#     print(f"the multition is  : {a*b}")
+
+# object1=calculator()
+# object1.add(5,5)
+# object1.sub(5,5)
+# object1.div(5,5)
+# object1.mult(5,5)
+
+
 
 
 #--------------combine two strings witj the help of object and classes
@@ -97,13 +123,46 @@
 #----------class method
 
 
-class num:
-  @classmethod
-  def sub(cls):
-    print('hii from class method')
+# class num:
+#   @classmethod
+#   def sub(cls):
+#     print('hii from class method')
     
-obj1=num()
-obj1.sub()
+# obj1=num()
+# obj1.sub()
+
+
+
+
+
+#----------static method 
+
+
+
+# class one:
+#   @staticmethod
+#   def add():
+#     print("adion")
+  
+# obj1=one()
+# obj1.add()
+  
+
+  
+# class demo:
+#   def d1(self):
+#     print('this is a dynamic method .')
+#   @classmethod
+#   def d2(cls):   
+#     print('this is a class method .')
+#   @staticmethod
+#   def d3():
+#     print('this is a static method .')
+  
+# object=demo()
+# object.d1()
+# object.d2()
+# object.d3()
 
 
 
