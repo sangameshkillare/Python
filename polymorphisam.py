@@ -1,4 +1,27 @@
 #single thing can  have a multiple forms  depends upon the situation
+#similar function act differently depends on the situation 
+
+
+# def add(*arg):
+#     return sum(arg)
+
+# print(add(1,8))
+# print(add(8,5,7,5))
+
+
+
+
+# print(len("sangamesh"))
+# print(len(["sangamesh ", "killare "]))
+# print(len(['''sangamesh
+#           killare ''']))
+
+
+
+
+
+
+
 
 #-------------build in polimorphisam
 
@@ -24,7 +47,7 @@
 
 # print(abs(-10))     
 # print(abs(-4.5))      
-# print(abs(3 + 4j))    
+# print(abs(3 + 5j))    
 
 
 

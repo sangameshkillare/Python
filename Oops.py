@@ -10,7 +10,10 @@
 # what is the difference between buildin funtion and user defined function?
 # what is the difference between user defined function and lambda function ?
 # what is difference between print and  return ?
-
+#what are the diffrent class methods in python ?
+#what is the diffreence between class , static and dynamic method ?
+#what is the diffreence between static variable and static method ?
+#explain dynamic/ststic/class method in detail with example ?
 
 
 # static methods  dynamic methods 
