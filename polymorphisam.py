@@ -1,5 +1,10 @@
 #single thing can  have a multiple forms  depends upon the situation
 #similar function act differently depends on the situation 
+# what is polymorphism ?
+# what is method overloading , overriding ?
+
+# diff between overloading and overriding ?
+#  what is supermethod ? == with the help of the super method we can handel thhe overloading and overriding .
 
 
 # def add(*arg):
@@ -18,7 +23,15 @@
 
 
 
+#--------------polymorphism in user define functions
 
+
+# def word(element):
+#     return len(element)
+
+# print(word([1,5,6,8,6]))
+# print(word('sangamesh'))
+    
 
 
 
@@ -101,7 +114,7 @@
 #----------method ooverloading
 
 # Overloading is a concept in programming where multiple functions or methods have the same name but different parameters. It allows for improved code readability and flexibility. Overloading can occur in methods (method overloading) or operators (operator overloading), depending on the programming language.
-
+#-method overloading occer  in the same  class and same function 
 
 
 # class calculator:
@@ -118,10 +131,9 @@
 
 #--------------------------------------overriding-----------------------------------------
 
-#-method overloading occer  in the same  class and same function 
+
 #same class , same method but having diff parameters 
-# 
-# #overriding occur in in heritance 
+# #overriding occur in inheritance 
 # if child class , parent class having  same functions ,name
 #child class overrieds the func of parent class and disply it own property
 
@@ -134,10 +146,10 @@
         
 # class sangamesh(father):
 #     def home(self):
-#         # super().home()
+#         super().home()
 #         print("This is sangamesh's home.")
         
-# whos=sangamesh()
+# whos=father()
 # whos.home()
 
 
