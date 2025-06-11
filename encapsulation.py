@@ -85,3 +85,58 @@
 # obj=no()
 # obj.num()
 # obj.new()
+
+
+
+
+
+
+
+
+
+#------------ public,private,protected
+
+
+
+
+class MyClass:
+    def __init__(self):
+        self.public_var = "I am public"
+        self._protected_var = "I am protected"
+        self.__private_var = "I am private"
+
+    def public_method(self):
+        print("Public method:", self.public_var)
+
+    def _protected_method(self):
+        print("Protected method:", self._protected_var)
+
+    def __private_method(self):
+        print("Private method:", self.__private_var)
+
+    # Method to access private members within the class
+    def access_private(self):
+        self.__private_method()
+
+
+# Create an object
+obj = MyClass()
+
+# Accessing public variable and method
+print(obj.public_var)
+obj.public_method()
+
+# Accessing protected variable and method (still accessible, but convention says "internal use only")
+print(obj._protected_var)
+obj._protected_method()
+
+# Trying to access private variable and method directly (will raise AttributeError)
+# print(obj.__private_var)         # Uncommenting this will raise an error
+# obj.__private_method()           # Uncommenting this will raise an error
+
+# Accessing private variable and method indirectly
+obj.access_private()
+
+# Accessing private members using name mangling (not recommended but possible)
+print(obj._MyClass__private_var)
+obj._MyClass__private_method()
