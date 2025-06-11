@@ -140,3 +140,9 @@ obj.access_private()
 # Accessing private members using name mangling (not recommended but possible)
 print(obj._MyClass__private_var)
 obj._MyClass__private_method()
+
+
+
+
+# write a programme to print  area ,perimeter of the rectangle -1) make all variables public .2) all variable private 3) all variables protected
+
