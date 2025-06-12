@@ -1,8 +1,80 @@
+# exeption handling is the way to handle the expetion ,
+# there two types of Exception complile and runtime Exception.
+
+#-------compile time error - syntax error, runtime error .
+
+#------indentation error
+# for i in range(1,10):
+# print(i)
+
+
+#-----syntax error
+
+
+# x=5
+# print(x)
+# y 5
+
+
+#-----Name error
+
+# Name="sangamesh"
+# print(name)
+
+
+
+#--------value error
+
+# x=int(input("enter int :"))
+# print(x)
+
+
+#------type error
+
+# name="akash"
+# age=25
+# print(name+age)
+
+
+#-----------index error
+
+# list=['python','js','rust','go']
+# print(list[4])
+
+
+#-------key error
+
+
+# stdx={'name':'sangamesh','age':50,'collage':'rmc'}
+# print(stdx['roll-no'])
+
+
+#-------import error
+
+# import numpy as np
+# import addition as add
+
+
+
+
+#--------- example without EH
+
+# x=int(input('Enter 1 no :'))
+# y=int(input('Enter 2 no :'))
+# z=x/y
+# print(z)
+# print('done')
+
+
+#----------with EH
+
+
 # try :
 #     x=int(input("enter number : "))
-#     result=10/x
+#     y=int(input("enter number : "))
+#     result=x/y
 #     print(result)
-# except:
+# except ZeroDivisionError:
 #     print("cant divide by zero: ")
     
 # else:
@@ -12,20 +84,8 @@
 #     print("Programe finished :")
 
 
-# try :
-#     x=int(input("enter number : "))
-#     result=10/x
-#     print(result)
-# except ZeroDivisionError :
-#     print("cant divide by zero: ")
-# except ValueError:
-#     print("invalid input")
-    
-# else:
-#     print("Execute successfully : ")
-    
-# finally:
-#     print("Programe finished :")
+
+
 
 
 #----------------------fibo with execption handling
@@ -145,45 +205,45 @@
 #---------------bank managment system
 
 
-class InvalidAmountError (Exception):
-    pass
+# class InvalidAmountError (Exception):
+#     pass
 
-class InvalidNumber(Exception):
-    pass
+# class InvalidNumber(Exception):
+#     pass
 
-class Bank:
+# class Bank:
     
-    def deposit(self,balance,add):
-        self.balance=balance
-        self.add=add
-        print(f"Your {add} deposited sucssefully in your acount . Total balance-----> {balance}+{add}")
+#     def deposit(self,balance,add):
+#         self.balance=balance
+#         self.add=add
+#         print(f"Your {add} deposited sucssefully in your acount . Total balance-----> {balance}+{add}")
         
     
     
-    def withdraw(self,amount):
-        self.amount=amount
-        if amount <=0:
-            raise InvalidNumber ("please enter valid number :")
-        if amount>self.balance:
-            raise InvalidAmountError(f"Insufficient fund please check your Blance .")
-        else:
-            actual=self.balance-amount
-            print(f"Amount successfully withdrawn = {actual}")
+#     def withdraw(self,amount):
+#         self.amount=amount
+#         if amount <=0:
+#             raise InvalidNumber ("please enter valid number :")
+#         if amount>self.balance:
+#             raise InvalidAmountError(f"Insufficient fund please check your Blance .")
+#         else:
+#             actual=self.balance-amount
+#             print(f"Amount successfully withdrawn = {actual}")
             
         
-balance=0
-add=int(input("Enter the amount Deposit amount :-"))
-amount=int(input("Enter the amount withdaw amount :-"))
+# balance=0
+# add=int(input("Enter the amount Deposit amount :-"))
+# amount=int(input("Enter the amount withdaw amount :-"))
 
-try:
-    object=Bank()
-    print("1) deposit")
-    print("2) withdraw")
-    activity=int(input("enter number what you want to do :"))
-    object.deposit(balance,add)
-    object.withdraw(amount)
+# try:
+#     object=Bank()
+#     print("1) deposit")
+#     print("2) withdraw")
+#     activity=int(input("enter number what you want to do :"))
+#     object.deposit(balance,add)
+#     object.withdraw(amount)
     
-except InvalidAmountError as e:
-    print(e)
+# except InvalidAmountError as e:
+#     print(e)
     
     
