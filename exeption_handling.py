@@ -86,6 +86,55 @@
 
 
 
+#---------name error with EH
+
+
+# try:
+#     name='sangamesh'
+#     print(Name)
+# except NameError:
+#     print("Paramerter is incorrect .")
+# else:
+#     print("Code succesfully exected.")
+    
+
+
+
+
+#-----------creating custome error
+
+
+
+# class InvalidAgeError(Exception):
+#     def __init__(self,age,message="Age is invalid"):
+#         self.age=age
+#         self.message=message
+#         # super().__init__(self.message)
+
+
+
+# try:
+#     age=int(input("Enter your age : "))
+#     if (0<= age <= 21):
+#         raise InvalidAgeError(age)
+#     else:
+#         print("valid age ")
+
+# except InvalidAgeError as e :
+#     print(" not Eligible for vote")
+
+# else:
+#     print("Eligible for vote")
+    
+# finally:
+#     print("vote now")
+
+
+
+        
+    
+    
+
 
 
 #----------------------fibo with execption handling
@@ -108,6 +157,12 @@
 #     print("execute successfully.")
 # finally:
 #     print("End of programe.")
+
+
+
+
+
+
 
 
 
