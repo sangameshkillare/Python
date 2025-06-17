@@ -140,17 +140,17 @@
 
 
 
-# class father:
-#     def home(self):
-#         print("This is sangamesh fathers Home .")
+class father:
+    def home(self):
+        print("This is sangamesh fathers Home .")
         
-# class sangamesh(father):
-#     def home(self):
-#         super().home()
-#         print("This is sangamesh's home.")
+class sangamesh(father):
+    def home(self):
+        super().home()
+        print("This is sangamesh's home.")
         
-# whos=father()
-# whos.home()
+whos=sangamesh()
+whos.home()
 
 
 
@@ -353,6 +353,8 @@
 
 
 
+
+
 #  Define a ComplexNumber class with attributes real and imaginary. Overload the + operator to add two complex numbers and the str() method for string representation.
 
 
@@ -391,14 +393,6 @@
 
 
 
-
-
-
-
-
-
-
-
 # class Reverse:
 #     def __init__(self, data):
 #         self.data = data
@@ -416,3 +410,15 @@
 # r = Reverse([10, 20, 30])
 # for i in r:
 #     print(i)
+
+
+
+
+
+
+
+
+
+
+
+
