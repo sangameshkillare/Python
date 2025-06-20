@@ -4,7 +4,7 @@
 # import math
 # print(math.sqrt(14))
 
-import math as  m  #alice function 
+# import math as  m  #alice function 
 # print(m.sqrt(16)) 
 
 # print(m.pow(5,2))
@@ -12,14 +12,32 @@ import math as  m  #alice function
 # print(m.pi)
 
 
-# import numpy as np
+import numpy_lab as np
 
-import os
-print(os.getcwd())
+name1=['sangamesh','akash','yash','ajay']
+print(type(name1))
+arr2=np.array(name1)
+print(type(arr2))
+print(arr2)
 
-from datetime import datetime
-now=datetime.now()
-print(now.strftime("%d-%m-%y-%t"))
+# import os
+# print(os.getcwd())
+
+# from datetime import datetime
+# now=datetime.now()
+# print(now.strftime("%d-%m-%y-%t"))
 
 
-# import pandas as pd
+
+
+
+# def palindrome():
+#     str=input("enter to check palindromme :")
+#     str2=str[::-1]
+#     if str==str2:
+#         print("the string is palindrome .")
+#     else:
+#         print("not palindrome.")
+    
+    
+# palindrome()

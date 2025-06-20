@@ -36,21 +36,31 @@
 
 
 
-#---------------------List comphrention 
+#---------------------List comphrention  find the cube root and sqrt
 
 # num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
+# sqrt=[x**2 for x in range(1,100)]
+# print(sqrt)
+# cube=[x**3 for x in  range(1,100)]
+# print(cube)
 # even=[x for x in num if x%2==0]
 # odd=[x for x in num if x%2!=0]
 # print(even,odd)
 
+# print([x**3 for x in range(1,10)])
 
 
-#-----------------------srore even and odd in dict and tuple
+
+#-----------------------store even and odd in dict and tuple
+
+
 
 # evn_od = [{x:"even"} if x % 2 == 0 else {x:"odd "} for x in range(1,11)]
-# print(evn_od)
+# print( [{x:"even"} if x % 2 == 0 else {x:"odd "} for x in range(1,11)])
 
+
+
+#=-----------build in functions in list comprehension
 
 
 
@@ -74,11 +84,18 @@
 
 
 
-# list=["apple","Grapes","Mango"]
+list=["apple","Grapes","Mango"]
+
+
 
 # upper_case=[len(word) for word in list]
 # print(upper_case)
 
+
+
+
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print([min(str(x)) for x in num])
 
 #------------add special char after each element in list
 
