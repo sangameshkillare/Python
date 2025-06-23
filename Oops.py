@@ -462,3 +462,31 @@
 
 # print(object.lap.brand,object.lap.ram)
             
+            
+     
+     
+     
+#------------------ Student Class
+# Create a class Student with:
+
+# Attributes: name, roll_no, marks
+
+# Method display() that prints the student's details.
+
+# ✅ Try creating two students and calling the method for both
+            
+            
+            
+            
+# class std:
+  
+#   def __init__(self,name,roll,mark):
+#     self.name=name
+#     self.roll=roll
+#     self.mark=mark
+    
+#   def display(self):
+#     print(self.name,self.roll,self.mark)
+    
+# obj=std('sangamesh',3,90)
+# obj.display()

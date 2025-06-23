@@ -171,7 +171,7 @@
 
 
 # class invalidageerror(Exception):
-#     def __init__(self,age,message="Age must be between 0 and 100 :"):
+#     def __init__(self,age,message="Age must be between 21 and 100 :"):
 #         self.age=age
 #         self.message=message
 #         super().__init__(self.message)
@@ -180,7 +180,7 @@
     
 # try:
 #     age=int(input("enter the age :"))
-#     if (21<=age>=100):
+#     if (21<=age and age>=100):
 #         raise invalidageerror(age)
 #     else:
 #         print("valid age")
