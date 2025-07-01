@@ -92,8 +92,9 @@ import numpy as np
 
 
 #---------csv file operations
-
-
+x=5
+v='5'
+print(x==v)
 
 # file=pd.read_csv('indeks-standar-pencemar-udara-di-spku-dataset.csv')
 # # print(file)
@@ -128,75 +129,75 @@ import numpy as np
 
 
 
-# Sample DataFrame to test
-file = pd.DataFrame({
-    'co': ['India', 'USA', 'India', 'UK', None],
-    'co2': [10, 20, 30, 40, 50],
-    'val1': [100, 200, 300, None, 500],
-    'val2': [1, 2, 3, 4, 5]
-})
+# # Sample DataFrame to test
+# file = pd.DataFrame({
+#     'co': ['India', 'USA', 'India', 'UK', None],
+#     'co2': [10, 20, 30, 40, 50],
+#     'val1': [100, 200, 300, None, 500],
+#     'val2': [1, 2, 3, 4, 5]
+# })
 
-# 1. Data types of columns
-print("Data Types:\n", file.dtypes)
+# # 1. Data types of columns
+# print("Data Types:\n", file.dtypes)
 
-# 2. Count unique values per column
-print("\nUnique Values per Column:\n", file.nunique())
+# # 2. Count unique values per column
+# print("\nUnique Values per Column:\n", file.nunique())
 
-# 3. Unique values in 'co'
-print("\nUnique values in 'co':\n", file['co'].unique())
+# # 3. Unique values in 'co'
+# print("\nUnique values in 'co':\n", file['co'].unique())
 
-# 4. Frequency counts of 'co'
-print("\nValue Counts of 'co':\n", file['co'].value_counts())
+# # 4. Frequency counts of 'co'
+# print("\nValue Counts of 'co':\n", file['co'].value_counts())
 
-# 5. Sorted by 'co2'
-print("\nSorted by 'co2':\n", file.sort_values(by='co2'))
+# # 5. Sorted by 'co2'
+# print("\nSorted by 'co2':\n", file.sort_values(by='co2'))
 
-# 6. Rename column 'co2' to 'carbon'
-file.rename(columns={'co2': 'carbon'}, inplace=True)
-print("\nRenamed Columns:\n", file.columns)
+# # 6. Rename column 'co2' to 'carbon'
+# file.rename(columns={'co2': 'carbon'}, inplace=True)
+# print("\nRenamed Columns:\n", file.columns)
 
-# 7. Set index to 'co'
-file.set_index('co', inplace=True)
-print("\nSet 'co' as index:\n", file)
+# # 7. Set index to 'co'
+# file.set_index('co', inplace=True)
+# print("\nSet 'co' as index:\n", file)
 
-# 8. Reset index
-file.reset_index(inplace=True)
-print("\nReset Index:\n", file)
+# # 8. Reset index
+# file.reset_index(inplace=True)
+# print("\nReset Index:\n", file)
 
-# 9. Check for duplicates
-print("\nDuplicated Rows:\n", file.duplicated())
+# # 9. Check for duplicates
+# print("\nDuplicated Rows:\n", file.duplicated())
 
-# 10. Drop duplicate rows
-file.drop_duplicates(inplace=True)
+# # 10. Drop duplicate rows
+# file.drop_duplicates(inplace=True)
 
-# 11. Fill missing values with 0
-file.fillna(0, inplace=True)
+# # 11. Fill missing values with 0
+# file.fillna(0, inplace=True)
 
-# 12. Drop rows with missing values (no effect now, since we filled NaNs)
-file.dropna(inplace=True)
+# # 12. Drop rows with missing values (no effect now, since we filled NaNs)
+# file.dropna(inplace=True)
 
 
-# 14. Random sample of 3 rows
-print("\nRandom Sample:\n", file.sample(n=3))
+# # 14. Random sample of 3 rows
+# print("\nRandom Sample:\n", file.sample(n=3))
 
-# 15. Query where co == 'India'
-print("\nQuery for India:\n", file.query('co == "India"'))
+# # 15. Query where co == 'India'
+# print("\nQuery for India:\n", file.query('co == "India"'))
 
-# 16. Convert 'co' to uppercase
-file['co'] = file['co'].str.upper()
-print("\nUppercase 'co':\n", file['co'])
+# # 16. Convert 'co' to uppercase
+# file['co'] = file['co'].str.upper()
+# print("\nUppercase 'co':\n", file['co'])
 
-# 17. New column: val1 + val2
-file['total'] = file['val1'] + file['val2']
-print("\nNew 'total' column:\n", file[['val1', 'val2', 'total']])
+# # 17. New column: val1 + val2
+# file['total'] = file['val1'] + file['val2']
+# print("\nNew 'total' column:\n", file[['val1', 'val2', 'total']])
 
-# 18. Group by 'co' and take mean
-print("\nGroup by 'co':\n", file.groupby('co').mean(numeric_only=True))
+# # 18. Group by 'co' and take mean
+# print("\nGroup by 'co':\n", file.groupby('co').mean(numeric_only=True))
 
-# 19. Export to CSV
-file.to_csv('output.csv', index=False)  # Will save to current directory
+# # 19. Export to CSV
+# file.to_csv('output.csv', index=False)  # Will save to current directory
 
-# 20. Concatenate two DataFrames
-df2 = pd.DataFrame({'co': ['CANADA'], 'carbon': [60], 'val1': [600], 'val2': [6], 'total': [606]})
-combined = pd.concat([file, df2], ignore_index=True)
-print("\nConcatenated DataFrame:\n", combined)
+# # 20. Concatenate two DataFrames
+# df2 = pd.DataFrame({'co': ['CANADA'], 'carbon': [60], 'val1': [600], 'val2': [6], 'total': [606]})
+# combined = pd.concat([file, df2], ignore_index=True)
+# print("\nConcatenated DataFrame:\n", combined)
