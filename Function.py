@@ -301,3 +301,7 @@ leap(2023)
 #             return "Prime number"
 # num=int(input("enter the Number :"))
 # prime(prime(num))
+
+
+
+

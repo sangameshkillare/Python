@@ -92,9 +92,7 @@ import numpy as np
 
 
 #---------csv file operations
-x=5
-v='5'
-print(x==v)
+
 
 # file=pd.read_csv('indeks-standar-pencemar-udara-di-spku-dataset.csv')
 # # print(file)

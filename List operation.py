@@ -1,3 +1,16 @@
+# s = "OpenAI"
+# rev = ""
+# for i in s:
+#     rev = i+rev
+#     # rev = rev+i
+# s = rev   # Now original s is reversed
+# print(s)  # Output: IAnepO
+
+
+
+
+
+
 # 15 Common Operations:
 # lst.append(5)
 

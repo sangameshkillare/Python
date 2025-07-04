@@ -270,6 +270,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 # l1 = [-2, -1, 4, 5, 6]
 # l2=list(filter(lambda x:  x < 0, l1))
 # print(l2)

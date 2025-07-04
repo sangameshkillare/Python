@@ -39,6 +39,17 @@
 #print(dict.popitem())
 
 
+
+# my_dict = {
+#     "name": "Alice",
+#     "age": 30,
+#     "city": "New York"
+# }
+
+# for key, value in my_dict.items():
+#     print(f"{key} -> {value}")
+
+
 ## @ how can we add two  dictionaries 
 
 # print({**dict ,** dict2})
@@ -91,9 +102,10 @@
 d1={'name':'SANGAMESH','marks':99}
 d1['age']=40
 
-# print(d1)
+print(dict.items())
 
-print(sorted(d1))  
+
+# print(sorted(d1))  
 # print(sort(d1)) #not possible 
 
 # del d1['name']

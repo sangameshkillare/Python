@@ -1,3 +1,26 @@
+# import copy
+
+# original = [[1, 2], [3, 4]]
+# shallow = copy.copy(original)
+
+# shallow[0][0] = 99
+
+# print(original)  # [[99, 2], [3, 4]] – original is affected
+
+
+
+# import copy
+
+# original = [[1, 2], [3, 4]]
+# deep = copy.deepcopy(original)
+
+# deep[0][0] = 99
+
+# print(original)  # [[1, 2], [3, 4]] – original is unchanged
+
+
+
+
 #{Set} is collection of hetrogenious unorder elements and uniq element .
 
 #union,intersection,diff,simitric difference,sorted, add,update,min,max,del,length,pop,remove,clear,
@@ -15,6 +38,33 @@
 # whos performance is good , tuple,list or list ?
 
 
+# import time
+
+# lst = list(range(1000000))
+# tup = tuple(range(1000000))
+# st = set(range(1000000))
+
+# # Check membership
+# start = time.time()
+# 999999 in lst
+# print("List:", time.time() - start)
+
+# start = time.time()
+# 999999 in tup
+# print("Tuple:", time.time() - start)
+
+# start = time.time()
+# 999999 in st
+# print("Set:", time.time() - start)
+
+# 🚀 Final Conclusion:
+# 🔸 Use Tuple → When data is constant, needs to be fast and memory efficient.
+
+# 🔸 Use List → When data needs to be ordered, changed, indexed frequently.
+
+# 🔸 Use Set → When you care about uniqueness and fast membership checking.
+
+# li
 # set={1,1,2,3,4,5}
 
 # print(set)

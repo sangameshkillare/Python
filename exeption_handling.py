@@ -195,6 +195,18 @@
 
 
 
+#---------simple Indexerror example 
+
+
+# try:
+#     numbers =[1,2,3,4,5,6]
+#     print(numbers[7])
+# except IndexError as e:
+#     print(f"IndexError:{e}")
+# else:
+#     print('No error')
+# finally:
+#     print("all set")
 #--------------Atm
 
 

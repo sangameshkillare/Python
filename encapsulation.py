@@ -123,11 +123,11 @@ class MyClass:
 obj = MyClass()
 
 # Accessing public variable and method
-print(obj.public_var)
+# print(obj.public_var)
 obj.public_method()
 
 # Accessing protected variable and method (still accessible, but convention says "internal use only")
-print(obj._protected_var)
+# print(obj._protected_var)
 obj._protected_method()
 
 # Trying to access private variable and method directly (will raise AttributeError)
@@ -138,8 +138,8 @@ obj._protected_method()
 obj.access_private()
 
 # Accessing private members using name mangling (not recommended but possible)
-print(obj._MyClass__private_var)
-obj._MyClass__private_method()
+# print(obj._MyClass__private_var)
+# obj._MyClass__private_method()
 
 
 
