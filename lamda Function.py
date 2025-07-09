@@ -45,8 +45,8 @@
 
 #-----------------
 
-# add=lambda x,y:x+y | x*y 
-# print(add(5,6))
+add=lambda x,y:x+y | x*y 
+print(add(5,8))
 
 
 # add=lambda x,y:x/y 
