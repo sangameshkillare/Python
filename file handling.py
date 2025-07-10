@@ -12,9 +12,9 @@
 #     lines=file.readlines()
 #     print(lines[0])
     
-with open('text.txt', 'r') as f:
-    print(f.readline())
+# with open('text.txt', 'r') as f:
+#     print(f.readline())
     
-with open ('text.txt','a') as file:
-    file.write("new line appending \n")
+# with open ('text.txt','a') as file:
+#     file.write("new line appending \n")
     
